@@ -3,13 +3,13 @@
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/24/17.
-//  Copyright © 2017 MAG. All rights reserved.
+//  
 //
 
 import XCTest
 import Foundation
 
-class L3_1: XCTestCase {
+class Lesson3Task1: XCTestCase {
     
     func test() {
         XCTAssertEqual(solution(1, 5, 2), 2)

@@ -3,12 +3,12 @@
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/29/17.
-//  Copyright © 2017 MAG. All rights reserved.
+//  
 //
 
 import XCTest
 
-class L4_2: XCTestCase {
+class Lesson4Task2: XCTestCase {
     
     func test() {
         var arr = [4, 1, 3, 2]
@@ -44,23 +44,6 @@ class L4_2: XCTestCase {
         let result = gaussSum - sum
         
         return result == 0 ? 1 : 0
-    }
-    
-    // speed: 60 / 100
-    public func solutionSlow(_ A : inout [Int]) -> Int {
-        let arr = A.sorted()
-        
-        var n = 1
-        for e in arr {
-            if e == n {
-                n += 1
-                continue
-            } else {
-                return 0
-            }
-        }
-        
-        return 1
     }
     
 }

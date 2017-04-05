@@ -3,14 +3,14 @@
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/23/17.
-//  Copyright © 2017 MAG. All rights reserved.
+//  
 //
 
 import XCTest
 
-class L2_2: XCTestCase {
+class Lesson2Task2: XCTestCase {
     
-    func testExample() {
+    func test() {
         var arr = [3, 8, 9, 7, 6]
         XCTAssertEqual(solution(&arr, 3), [9, 7, 6, 3, 8])
         XCTAssertEqual(solution(&arr, 3 + arr.count), [9, 7, 6, 3, 8])

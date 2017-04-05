@@ -3,12 +3,12 @@
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/29/17.
-//  Copyright © 2017 MAG. All rights reserved.
+//  
 //
 
 import XCTest
 
-class L4_3: XCTestCase {
+class Lesson4Task3: XCTestCase {
     
     func test() {
         var arr = [1, 3, 1, 4, 2, 3, 5, 4]

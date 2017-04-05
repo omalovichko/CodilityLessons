@@ -24,6 +24,8 @@
 		FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */; };
 		FA1F2A371E953C66002437F3 /* Lesson6Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */; };
 		FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */; };
+		FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */; };
+		FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +61,8 @@
 		FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task4.swift; sourceTree = "<group>"; };
 		FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task1.swift; sourceTree = "<group>"; };
 		FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task2.swift; sourceTree = "<group>"; };
+		FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task3.swift; sourceTree = "<group>"; };
+		FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		FA1F2A121E953B44002437F3 /* CodilityLessonsTests */ = {
 			isa = PBXGroup;
 			children = (
+				FA1F2A151E953B44002437F3 /* Info.plist */,
 				FA1F2A191E953C66002437F3 /* Lesson1Task1.swift */,
 				FA1F2A1A1E953C66002437F3 /* Lesson2Task1.swift */,
 				FA1F2A1B1E953C66002437F3 /* Lesson2Task2.swift */,
@@ -124,7 +129,8 @@
 				FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */,
 				FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */,
 				FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */,
-				FA1F2A151E953B44002437F3 /* Info.plist */,
+				FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */,
+				FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -231,8 +237,10 @@
 				FA1F2A2A1E953C66002437F3 /* Lesson2Task1.swift in Sources */,
 				FA1F2A2E1E953C66002437F3 /* Lesson3Task3.swift in Sources */,
 				FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */,
+				FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */,
 				FA1F2A321E953C66002437F3 /* Lesson4Task4.swift in Sources */,
 				FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */,
+				FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */,
 				FA1F2A371E953C66002437F3 /* Lesson6Task1.swift in Sources */,
 				FA1F2A351E953C66002437F3 /* Lesson5Task3.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3Task1.swift in Sources */,

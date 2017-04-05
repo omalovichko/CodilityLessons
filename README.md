@@ -54,7 +54,8 @@ __Lesson 13 - Fibonacci numbers__
 
 __Lesson 14 - Binary search algorithm__
 
-__Lesson 15 - Caterpillar method__\
+__Lesson 15 - Caterpillar method__
+
 __Lesson 16 - Greedy algorithms__
 
 __Lesson 17 - Dynamic programming__
