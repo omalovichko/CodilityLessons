@@ -1,4 +1,4 @@
-# Codility Lessons
+# Codility Lessons [![Build Status](https://travis-ci.org/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.org/omalovichko/CodilityLessons)
 Codility lessons solutions solved in Swift 3.x
 
 Correctness: 💯🔥%
