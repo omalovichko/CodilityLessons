@@ -1,0 +1,4 @@
+language: swift
+osx_image: xcode8.3
+script:
+  - xcodebuild test -project CodilityLessons.xcodeproj -scheme CodilityLessonsTests -destination 'platform=OS X,arch=x86_64'
