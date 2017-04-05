@@ -1,0 +1,27 @@
+//
+//  L3_1.swift
+//  CodilityLessons
+//
+//  Created by Oleksandr Malovichko on 3/24/17.
+//  Copyright © 2017 MAG. All rights reserved.
+//
+
+import XCTest
+import Foundation
+
+class L3_1: XCTestCase {
+    
+    func test() {
+        XCTAssertEqual(solution(1, 5, 2), 2)
+        XCTAssertEqual(solution(10, 85, 30), 3)
+        XCTAssertEqual(solution(0, 1_000_000_000, 1_000_000_000), 1)
+    }
+    
+    public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
+        let jumps: Double = Double(Y - X) / Double(D)
+        let jRound = ceil(jumps)
+        let jIntValue = Int(jRound)
+        return jIntValue
+    }
+    
+}
