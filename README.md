@@ -42,6 +42,10 @@ Lessons in progress:
 ------
 
 __Lesson 7 - Stacks and Queues__
+* Brackets: Determine whether a given string of parentheses is properly nested.
+* Fish: N voracious fish are moving along a river. Calculate how many fish are alive.
+* Nesting: Determine whether given string of parentheses is properly nested.
+* StoneWall: Cover "Manhattan skyline" using the minimum number of rectangles.
 
 __Lesson 8 - Leader__
 
