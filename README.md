@@ -32,11 +32,14 @@ __Lesson 5 - Prefix Sums__
 * GenomicRangeQuery: Find the minimal nucleotide from a range of sequence DNA.
 * MinAvgTwoSlice: Find the minimal average of any slice containing at least two elements.
 
-Lessons in progress:
-------
-
 __Lesson 6 - Sorting__
 * Distinct: Compute number of distinct values in an array.
+* MaxProductOfThree: Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
+* Triangle: Determine whether a triangle can be built from a given set of edges.
+* NumberOfDiscIntersections: Compute the number of intersections in a sequence of discs.
+
+Lessons in progress:
+------
 
 __Lesson 7 - Stacks and Queues__
 
