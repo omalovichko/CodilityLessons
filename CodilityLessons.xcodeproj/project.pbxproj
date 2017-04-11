@@ -407,6 +407,7 @@
 				FA1F2A0C1E953B0D002437F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA1F2A161E953B44002437F3 /* Build configuration list for PBXNativeTarget "CodilityLessonsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +416,7 @@
 				FA1F2A181E953B44002437F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
