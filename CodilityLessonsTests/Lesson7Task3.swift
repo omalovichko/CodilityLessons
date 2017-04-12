@@ -1,41 +1,29 @@
 //
-//  Lesson7Task1.swift
+//  Lesson7Task3.swift
 //  CodilityLessons
 //
-//  Created by Oleksandr Malovichko on 4/11/17.
+//  Created by Oleksandr Malovichko on 4/12/17.
 //
 //
 
 import XCTest
 
-class Lesson7Task1: XCTestCase {
-    
+class Lesson7Task3: XCTestCase {
     func test() {
         var s0 = ")("
         XCTAssertEqual(solution(&s0), 0)
         
-        var s = "{[()()]}"
-        XCTAssertEqual(solution(&s), 1)
+        var s = "((()(())"
+        XCTAssertEqual(solution(&s), 0)
         
-        var s1 = "([)()]"
-        XCTAssertEqual(solution(&s1), 0)
+        var s1 = "(()())"
+        XCTAssertEqual(solution(&s1), 1)
         
         var s2 = ""
         XCTAssertEqual(solution(&s2), 1)
         
-        measure { 
-            var s3 = ""
-            for _ in 1...100_000 {
-                s3 += "("
-            }
-            for _ in 1...100_000 {
-                s3 += ")"
-            }
-            XCTAssertEqual(self.solution(&s3), 1)
-        }
-        
-        var s4 = "{{{{"
-        XCTAssertEqual(self.solution(&s4), 0)
+        var s3 = "(((("
+        XCTAssertEqual(self.solution(&s3), 0)
     }
     
     public func solution(_ S : inout String) -> Int {
@@ -43,12 +31,11 @@ class Lesson7Task1: XCTestCase {
         if count == 0 {
             return 1
         }
-        let dict: Dictionary<Character, Character> = ["{": "}", "[": "]", "(": ")"]
         var stack = Stack<Character>(capacity: count)
         for c in S.characters {
-            if c == "{" || c == "[" || c == "(" {
+            if c == "(" {
                 stack.push(c)
-            } else if let last = stack.front(), dict[last] == c {
+            } else if stack.count() != 0 {
                 stack.pop()
             } else {
                 return 0
@@ -87,5 +74,5 @@ class Lesson7Task1: XCTestCase {
             return array[cursor - 1]
         }
     }
-    
+
 }
