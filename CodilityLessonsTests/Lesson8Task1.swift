@@ -19,10 +19,21 @@ class Lesson8Task1: XCTestCase {
 
         var arr3 = [1, 2, 1, 1, 2, 1]
         XCTAssertEqual(solution(&arr3), 3)
-        
+    }
+    
+    func testPerfomance1() {
         measure {
             var arr4 = Array<Int>(repeatElement(0, count: 100_000))
             XCTAssertEqual(self.solution(&arr4), 99999)
+        }
+    }
+    
+    func testPerfomance2() {
+        measure {
+            var arr5 = [1]
+            arr5.append(contentsOf: Array<Int>(repeatElement(0, count: 100_000)))
+            arr5.append(1)
+            XCTAssertEqual(self.solution(&arr5), 99997)
         }
     }
 
@@ -58,7 +69,10 @@ class Lesson8Task1: XCTestCase {
             
             if maxLeft.count >= (s + 1) / 2 + 1 {
                 if equiLeaders[s] != nil {
-                    equiLeaders[s]!.leftLeader = maxLeft.value
+                    if equiLeaders[s]!.rightLeader == maxLeft.value {
+                        leadersCount += 1
+                    }
+                    equiLeaders[s] = nil
                 } else {
                     equiLeaders[s] = (maxLeft.value, nil)
                 }
@@ -81,23 +95,12 @@ class Lesson8Task1: XCTestCase {
             
             if maxRight.count >= (count - rightIndex) / 2 + 1 {
                 if equiLeaders[rs] != nil {
-                    equiLeaders[rs]!.rightLeader = maxRight.value
+                    if equiLeaders[rs]!.leftLeader == maxRight.value {
+                        leadersCount += 1
+                    }
+                    equiLeaders[rs] = nil
                 } else {
                     equiLeaders[rs] = (nil, maxRight.value)
-                }
-            }
-            
-            // Check leaders
-            if s != count - 1 {
-                if let value = equiLeaders[s], value.leftLeader == value.rightLeader {
-                    leadersCount += 1
-                    equiLeaders[s] = nil
-                }
-            }
-            if rightIndex != count - 1 {
-                if let value = equiLeaders[rs], value.leftLeader == value.rightLeader {
-                    leadersCount += 1
-                    equiLeaders[rs] = nil
                 }
             }
         }
