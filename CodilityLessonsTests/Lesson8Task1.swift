@@ -44,63 +44,56 @@ class Lesson8Task1: XCTestCase {
             return 0
         }
         
-        var equiLeaders = Dictionary<Int, (leftLeader: Int?, rightLeader: Int?)>(minimumCapacity: count)
+        var leftEquiLeaders = Dictionary<Int, Int>(minimumCapacity: count)
         
         var leftCounts = Dictionary<Int, Int>(minimumCapacity: count)
         var maxLeft = (value: Int.min, count: 0)
         
-        var rightCounts = Dictionary<Int, Int>(minimumCapacity: count)
-        var maxRight = (value: Int.min, count: 0)
-        
-        var leadersCount = 0
-        
         for s in 0..<count {
             // Left side leader
             let l = A[s]
+            var newCount = 1
             if let currentCount = leftCounts[l] {
-                leftCounts[l] = currentCount + 1
-            } else {
-                leftCounts[l] = 1
+                newCount += currentCount
             }
             
-            if maxLeft.count < leftCounts[l]! {
-                maxLeft = (l, leftCounts[l]!)
+            leftCounts[l] = newCount
+            
+            if maxLeft.count < newCount {
+                maxLeft = (l, newCount)
             }
             
             if maxLeft.count >= (s + 1) / 2 + 1 {
-                if equiLeaders[s] != nil {
-                    if equiLeaders[s]!.rightLeader == maxLeft.value {
-                        leadersCount += 1
-                    }
-                    equiLeaders[s] = nil
-                } else {
-                    equiLeaders[s] = (maxLeft.value, nil)
-                }
+                leftEquiLeaders[s] = maxLeft.value
             }
-            
+        }
+        
+        var leadersCount = 0
+        
+        var rightCounts = Dictionary<Int, Int>(minimumCapacity: count)
+        var maxRight = (value: Int.min, count: 0)
+        
+        for s in 0..<count {
             // Right side leader
+            // It is possible to count only left equi leaders (if exist) to improve performance
             let rightIndex = count - 1 - s
             let r = A[rightIndex]
+            var newCount = 1
             if let currentCount = rightCounts[r] {
-                rightCounts[r] = currentCount + 1
-            } else {
-                rightCounts[r] = 1
+                newCount += currentCount
             }
             
-            if maxRight.count < rightCounts[r]! {
-                maxRight = (r, rightCounts[r]!)
+            rightCounts[r] = newCount
+            
+            if maxRight.count < newCount {
+                maxRight = (r, newCount)
             }
             
             let rs = rightIndex - 1
             
             if maxRight.count >= (count - rightIndex) / 2 + 1 {
-                if equiLeaders[rs] != nil {
-                    if equiLeaders[rs]!.leftLeader == maxRight.value {
-                        leadersCount += 1
-                    }
-                    equiLeaders[rs] = nil
-                } else {
-                    equiLeaders[rs] = (nil, maxRight.value)
+                if let leftLeader = leftEquiLeaders[rs], leftLeader == maxRight.value {
+                    leadersCount += 1
                 }
             }
         }
