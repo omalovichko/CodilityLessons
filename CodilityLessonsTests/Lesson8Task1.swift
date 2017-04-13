@@ -16,9 +16,14 @@ class Lesson8Task1: XCTestCase {
         
         var arr2 = [0]
         XCTAssertEqual(solution(&arr2), 0)
-        
+
         var arr3 = [1, 2, 1, 1, 2, 1]
         XCTAssertEqual(solution(&arr3), 3)
+        
+        measure {
+            var arr4 = Array<Int>(repeatElement(0, count: 100_000))
+            XCTAssertEqual(self.solution(&arr4), 99999)
+        }
     }
 
     public func solution(_ A : inout [Int]) -> Int {
@@ -28,12 +33,12 @@ class Lesson8Task1: XCTestCase {
             return 0
         }
         
-        var equiLeaders = Dictionary<Int, (leftLeader: Int?, rightLeader: Int?)>()
+        var equiLeaders = Dictionary<Int, (leftLeader: Int?, rightLeader: Int?)>(minimumCapacity: count)
         
-        var leftCounts = Dictionary<Int, Int>()
+        var leftCounts = Dictionary<Int, Int>(minimumCapacity: count)
         var maxLeft = (value: Int.min, count: 0)
         
-        var rightCounts = Dictionary<Int, Int>()
+        var rightCounts = Dictionary<Int, Int>(minimumCapacity: count)
         var maxRight = (value: Int.min, count: 0)
         
         var leadersCount = 0
@@ -53,7 +58,7 @@ class Lesson8Task1: XCTestCase {
             
             if maxLeft.count >= (s + 1) / 2 + 1 {
                 if equiLeaders[s] != nil {
-                    equiLeaders[s]?.leftLeader = maxLeft.value
+                    equiLeaders[s]!.leftLeader = maxLeft.value
                 } else {
                     equiLeaders[s] = (maxLeft.value, nil)
                 }
@@ -72,21 +77,27 @@ class Lesson8Task1: XCTestCase {
                 maxRight = (r, rightCounts[r]!)
             }
             
+            let rs = rightIndex - 1
+            
             if maxRight.count >= (count - rightIndex) / 2 + 1 {
-                if equiLeaders[rightIndex] != nil {
-                    equiLeaders[rightIndex]?.rightLeader = maxRight.value
+                if equiLeaders[rs] != nil {
+                    equiLeaders[rs]!.rightLeader = maxRight.value
                 } else {
-                    equiLeaders[rightIndex] = (nil, maxRight.value)
+                    equiLeaders[rs] = (nil, maxRight.value)
                 }
             }
             
             // Check leaders
-            if s != count - 1 && rightIndex != count - 1 {
+            if s != count - 1 {
                 if let value = equiLeaders[s], value.leftLeader == value.rightLeader {
                     leadersCount += 1
+                    equiLeaders[s] = nil
                 }
-                if let value = equiLeaders[rightIndex], value.leftLeader == value.rightLeader, s != rightIndex {
+            }
+            if rightIndex != count - 1 {
+                if let value = equiLeaders[rs], value.leftLeader == value.rightLeader {
                     leadersCount += 1
+                    equiLeaders[rs] = nil
                 }
             }
         }
