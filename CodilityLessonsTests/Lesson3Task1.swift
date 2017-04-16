@@ -18,10 +18,9 @@ class Lesson3Task1: XCTestCase {
     }
     
     public func solution(_ X : Int, _ Y : Int, _ D : Int) -> Int {
-        let jumps: Double = Double(Y - X) / Double(D)
+        let jumps = Double(Y - X) / Double(D)
         let jRound = ceil(jumps)
-        let jIntValue = Int(jRound)
-        return jIntValue
+        return Int(jRound)
     }
     
 }

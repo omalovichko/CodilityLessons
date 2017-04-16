@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
+		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
 		FA1F2A071E953B0D002437F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A061E953B0D002437F3 /* main.swift */; };
 		FA1F2A291E953C66002437F3 /* Lesson1Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A191E953C66002437F3 /* Lesson1Task1.swift */; };
 		FA1F2A2A1E953C66002437F3 /* Lesson2Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1A1E953C66002437F3 /* Lesson2Task1.swift */; };
@@ -32,6 +34,7 @@
 		FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */; };
 		FA6A4DB61E9E65F800C9BA31 /* Lesson8Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB51E9E65F800C9BA31 /* Lesson8Task1.swift */; };
 		FA6A4DB81E9E660000C9BA31 /* Lesson8Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB71E9E660000C9BA31 /* Lesson8Task2.swift */; };
+		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +50,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
+		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
 		FA1F2A031E953B0D002437F3 /* CodilityLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodilityLessons; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1F2A061E953B0D002437F3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FA1F2A111E953B44002437F3 /* CodilityLessonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodilityLessonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task4.swift; sourceTree = "<group>"; };
 		FA6A4DB51E9E65F800C9BA31 /* Lesson8Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8Task1.swift; sourceTree = "<group>"; };
 		FA6A4DB71E9E660000C9BA31 /* Lesson8Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8Task2.swift; sourceTree = "<group>"; };
+		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,9 @@
 				FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */,
 				FA6A4DB51E9E65F800C9BA31 /* Lesson8Task1.swift */,
 				FA6A4DB71E9E660000C9BA31 /* Lesson8Task2.swift */,
+				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
+				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
+				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -254,6 +263,7 @@
 				FA1F2A291E953C66002437F3 /* Lesson1Task1.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8Task1.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2Task1.swift in Sources */,
+				FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */,
 				FA1F2A2E1E953C66002437F3 /* Lesson3Task3.swift in Sources */,
 				FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */,
 				FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */,
@@ -271,6 +281,8 @@
 				FA1F2A2F1E953C66002437F3 /* Lesson4Task1.swift in Sources */,
 				FA1F2A311E953C66002437F3 /* Lesson4Task3.swift in Sources */,
 				FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */,
+				FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */,
+				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4Task2.swift in Sources */,
 				FA1F2A2D1E953C66002437F3 /* Lesson3Task2.swift in Sources */,
