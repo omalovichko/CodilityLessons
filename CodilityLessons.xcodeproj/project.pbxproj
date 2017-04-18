@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */; };
+		FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */; };
+		FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */; };
 		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
 		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
 		FA1F2A071E953B0D002437F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A061E953B0D002437F3 /* main.swift */; };
@@ -50,6 +53,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_SqlSum.swift; sourceTree = "<group>"; };
+		FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_StrSymmetryPoint.swift; sourceTree = "<group>"; };
+		FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_TreeHeight.swift; sourceTree = "<group>"; };
 		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
 		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
 		FA1F2A031E953B0D002437F3 /* CodilityLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodilityLessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +164,9 @@
 				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
 				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
 				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
+				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
+				FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */,
+				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -260,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA1F2A2B1E953C66002437F3 /* Lesson2Task2.swift in Sources */,
+				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1Task1.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8Task1.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2Task1.swift in Sources */,
@@ -270,6 +280,7 @@
 				FA1F2A321E953C66002437F3 /* Lesson4Task4.swift in Sources */,
 				FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */,
 				FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */,
+				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
 				FA1F2A371E953C66002437F3 /* Lesson6Task1.swift in Sources */,
 				FA1F2A351E953C66002437F3 /* Lesson5Task3.swift in Sources */,
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */,
@@ -285,6 +296,7 @@
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4Task2.swift in Sources */,
+				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,
 				FA1F2A2D1E953C66002437F3 /* Lesson3Task2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
