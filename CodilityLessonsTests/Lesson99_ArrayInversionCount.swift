@@ -54,8 +54,6 @@ class Lesson99_ArrayInversionCount: XCTestCase {
 
     }
     
-    
-    
     public func solution(_ A : inout [Int]) -> Int {
         let count = A.count
         
@@ -63,46 +61,20 @@ class Lesson99_ArrayInversionCount: XCTestCase {
             return 0
         }
         
-        var result = 0
-        
-        let first = A.first!
-        A.removeFirst()
-        
-        var tree = Tree(first)
-        
-        var minValue = first
-        var maxValue = first
-        
-        var rightSubTree: Tree? = nil
-        var leftSubTree: Tree? = nil
+        var result = (tree: Tree(A.first!), count: 0)
         
         for i in 1..<count {
             let a = A[i]
             
-//            if a > maxValue {
-//                if let r = rightSubTree {
-//                    _ = r.insertValue(value: a)
-//                } else {
-//                    rightSubTree = Tree(a)
-//                }
-//                maxValue = a
-//                continue
-//            } else if rightSubTree != nil {
-//                tree.insertTreeToRight(tree: rightSubTree!)
-//                rightSubTree = nil
-//            }
-//            
-//            minValue = min(minValue, a)
-//            maxValue = max(maxValue, a)
+            result = insert(tree: result.tree, value: a, count: result.count)
+            result.tree = rotateTree(tree: result.tree)
             
-            result += tree.insertValue(value: a)
-            tree = rotateTree(tree: tree)
-            if result > 1_000_000_000 {
+            if result.count > 1_000_000_000 {
                 return -1
             }
         }
         
-        return result
+        return result.count
     }
     
     func rotateTree(tree: Tree) -> Tree {
@@ -114,12 +86,9 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         if l > r {
             // Right rotation
             let newTop = tree.left!
-            
-            let branch = newTop.right
-            let branchCount = newTop.rightCount
-            
-            tree.left = branch
-            tree.leftCount = branchCount
+
+            tree.left = newTop.right
+            tree.leftCount = newTop.rightCount
             
             newTop.right = tree
             newTop.rightCount = tree.count + tree.leftCount + tree.rightCount
@@ -128,12 +97,9 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         } else {
             // Left rotation
             let newTop = tree.right!
-            
-            let branch = newTop.left
-            let branchCount = newTop.leftCount
-            
-            tree.right = branch
-            tree.rightCount = branchCount
+
+            tree.right = newTop.left
+            tree.rightCount = newTop.leftCount
             
             newTop.left = tree
             newTop.leftCount = tree.count + tree.leftCount + tree.rightCount
@@ -142,6 +108,39 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         }
     }
     
+    func insert(tree: Tree, value: Int, count: Int) -> (Tree, Int) {
+        
+        var result = count
+        
+        func insert(tree: Tree) {
+            if tree.value > value {
+                tree.leftCount += 1
+                if let l = tree.left {
+                    result += tree.count + tree.rightCount
+                    return insert(tree: l)
+                }
+                tree.left = Tree(value)
+                result += tree.count + tree.rightCount
+                return
+            } else if tree.value < value {
+                tree.rightCount += 1
+                if let r = tree.right {
+                    return insert(tree: r)
+                }
+                tree.right = Tree(value)
+                return
+            } else {
+                tree.count += 1
+                result += tree.rightCount
+                return
+            }
+        }
+        
+        insert(tree: tree)
+        
+        return (tree, result)
+    }
+
     class Tree {
         var value: Int
         var count: Int
@@ -151,36 +150,6 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         var right : Tree?
         var rightCount = 0
-        
-//        func insertTreeToRight(tree: Tree) {
-//            rightCount += tree.rightCount
-//            if let r = right {
-//                r.insertTreeToRight(tree: tree)
-//            } else {
-//                right = tree
-//            }
-//        }
-        
-        func insertValue(value newValue: Int, n: Int = 0) -> Int {
-            if value > newValue {
-                leftCount += 1
-                if let l = left {
-                    return l.insertValue(value: newValue, n: n + count + rightCount)
-                }
-                left = Tree(newValue)
-                return n + count + rightCount
-            } else if value < newValue {
-                rightCount += 1
-                if let r = right {
-                    return r.insertValue(value: newValue, n: n)
-                }
-                right = Tree(newValue)
-                return n
-            } else {
-                count += 1
-                return n + rightCount
-            }
-        }
         
         init(_ value: Int) {
             self.value = value
