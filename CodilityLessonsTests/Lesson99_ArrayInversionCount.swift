@@ -32,8 +32,11 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         XCTAssertEqual(solution(&arr), 4)
         
         measure {
-            var arr = [Int](repeatElement(5, count: 30000))
-            XCTAssertEqual(self.solution(&arr), 0)
+            var arr = [Int]()
+            for i in 0..<10_000 {
+                arr.append(10_000 - i)
+            }
+            XCTAssertEqual(self.solution(&arr), 49995000)
         }
     }
     
@@ -46,17 +49,55 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         var result = 0
         
-        let tree = Tree(A.first!)
+        var tree = Tree(A.first!)
         
         for i in 1..<count {
             let a = A[i]
             result += tree.insertValue(value: a)
+            tree = rotateTree(tree: tree)
             if result > 1_000_000_000 {
                 return -1
             }
         }
         
         return result
+    }
+    
+    func rotateTree(tree: Tree) -> Tree {
+        let l = tree.leftCount
+        let r = tree.rightCount
+        if abs(l - r) < 2 {
+            return tree
+        }
+        if l > r {
+            // Right rotation
+            let newTop = tree.left!
+            
+            let branch = newTop.right
+            let branchCount = newTop.rightCount
+            
+            tree.left = branch
+            tree.leftCount = branchCount
+            
+            newTop.right = tree
+            newTop.rightCount = tree.count + tree.leftCount + tree.rightCount
+            
+            return newTop
+        } else {
+            // Left rotation
+            let newTop = tree.right!
+            
+            let branch = newTop.left
+            let branchCount = newTop.leftCount
+            
+            tree.right = branch
+            tree.rightCount = branchCount
+            
+            newTop.left = tree
+            newTop.leftCount = tree.count + tree.leftCount + tree.rightCount
+            
+            return newTop
+        }
     }
     
     class Tree {
