@@ -10,6 +10,7 @@
 		FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */; };
 		FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */; };
 		FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */; };
+		FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */; };
 		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
 		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
 		FA1F2A071E953B0D002437F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A061E953B0D002437F3 /* main.swift */; };
@@ -56,6 +57,7 @@
 		FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_SqlSum.swift; sourceTree = "<group>"; };
 		FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_StrSymmetryPoint.swift; sourceTree = "<group>"; };
 		FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_TreeHeight.swift; sourceTree = "<group>"; };
+		FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_ArrayInversionCount.swift; sourceTree = "<group>"; };
 		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
 		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
 		FA1F2A031E953B0D002437F3 /* CodilityLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodilityLessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -167,6 +169,7 @@
 				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
 				FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */,
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
+				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1Task1.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8Task1.swift in Sources */,
+				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2Task1.swift in Sources */,
 				FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */,
 				FA1F2A2E1E953C66002437F3 /* Lesson3Task3.swift in Sources */,
