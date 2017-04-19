@@ -38,6 +38,7 @@
 		FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */; };
 		FA6A4DB61E9E65F800C9BA31 /* Lesson8Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB51E9E65F800C9BA31 /* Lesson8Task1.swift */; };
 		FA6A4DB81E9E660000C9BA31 /* Lesson8Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB71E9E660000C9BA31 /* Lesson8Task2.swift */; };
+		FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,6 +89,7 @@
 		FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task4.swift; sourceTree = "<group>"; };
 		FA6A4DB51E9E65F800C9BA31 /* Lesson8Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8Task1.swift; sourceTree = "<group>"; };
 		FA6A4DB71E9E660000C9BA31 /* Lesson8Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8Task2.swift; sourceTree = "<group>"; };
+		FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_PolygonConcavityIndex.swift; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -170,6 +172,7 @@
 				FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */,
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
+				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8Task2.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3Task1.swift in Sources */,
+				FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */,
 				FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */,
 				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7Task1.swift in Sources */,
 				FA1F2A2F1E953C66002437F3 /* Lesson4Task1.swift in Sources */,

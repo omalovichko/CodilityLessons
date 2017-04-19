@@ -7,6 +7,7 @@
 //
 
 import XCTest
+// TODO: finish it with Merge sort
 
 class Lesson99_ArrayInversionCount: XCTestCase {
     
@@ -30,15 +31,30 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         arr = [-1, 6, 3, 4, 7, 4]
         XCTAssertEqual(solution(&arr), 4)
-        
+    }
+    
+    func testMeasure1() {
         measure {
             var arr = [Int]()
-            for i in 0..<10_000 {
+            for i in 0..<1_000 {
                 arr.append(10_000 - i)
             }
-            XCTAssertEqual(self.solution(&arr), 49995000)
+            XCTAssertEqual(self.solution(&arr), 499500)
         }
     }
+    
+    func testMeasure2() {
+        measure {
+            var arr = [Int]()
+            for i in 0..<1_000 {
+                arr.append(i)
+            }
+            XCTAssertEqual(self.solution(&arr), 0)
+        }
+
+    }
+    
+    
     
     public func solution(_ A : inout [Int]) -> Int {
         let count = A.count
@@ -49,10 +65,36 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         var result = 0
         
-        var tree = Tree(A.first!)
+        let first = A.first!
+        A.removeFirst()
+        
+        var tree = Tree(first)
+        
+        var minValue = first
+        var maxValue = first
+        
+        var rightSubTree: Tree? = nil
+        var leftSubTree: Tree? = nil
         
         for i in 1..<count {
             let a = A[i]
+            
+//            if a > maxValue {
+//                if let r = rightSubTree {
+//                    _ = r.insertValue(value: a)
+//                } else {
+//                    rightSubTree = Tree(a)
+//                }
+//                maxValue = a
+//                continue
+//            } else if rightSubTree != nil {
+//                tree.insertTreeToRight(tree: rightSubTree!)
+//                rightSubTree = nil
+//            }
+//            
+//            minValue = min(minValue, a)
+//            maxValue = max(maxValue, a)
+            
             result += tree.insertValue(value: a)
             tree = rotateTree(tree: tree)
             if result > 1_000_000_000 {
@@ -109,6 +151,15 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         var right : Tree?
         var rightCount = 0
+        
+//        func insertTreeToRight(tree: Tree) {
+//            rightCount += tree.rightCount
+//            if let r = right {
+//                r.insertTreeToRight(tree: tree)
+//            } else {
+//                right = tree
+//            }
+//        }
         
         func insertValue(value newValue: Int, n: Int = 0) -> Int {
             if value > newValue {
