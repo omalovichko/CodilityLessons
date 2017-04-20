@@ -71,9 +71,12 @@ __Lesson 17 - Dynamic programming__
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
+* FloodDepth: Find the maximum depth of water in mountains after a huge rainfall.
+
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
 * TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
+* SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
 
 __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
 
@@ -122,7 +125,6 @@ __Lesson 17 - Dynamic programming__
 * MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
-* FloodDepth: Find the maximum depth of water in mountains after a huge rainfall.
 * SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
@@ -132,7 +134,6 @@ __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
 * TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.
 
 __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
-* SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
 * ArrayRecovery: Recover a broken array using partial information in another array.
 * DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 

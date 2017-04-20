@@ -64,32 +64,32 @@ class Lesson99_ArrayInversionCount: XCTestCase {
             return 0
         }
         
-        var ascending = 0
-        var descending = 0
-        var lastElement = A.first!
-  
-        for i in 1..<count - 1 {
-            let a = A[i]
-            let b = A[i + 1]
-            if a == b {
-                ascending += 1
-                descending += 1
-            } else if a > b {
-                ascending += 1
-            } else {
-                descending += 1
-            }
-        }
+//        var ascending = 0
+//        var descending = 0
+//        var lastElement = A.first!
+//  
+//        for i in 1..<count - 1 {
+//            let a = A[i]
+//            let b = A[i + 1]
+//            if a == b {
+//                ascending += 1
+//                descending += 1
+//            } else if a > b {
+//                ascending += 1
+//            } else {
+//                descending += 1
+//            }
+//        }
         
-        if ascending - descending == 0 && descending == count {
-            return 0
-        }
-        if ascending == (count - 2) {
-            return (count * (count + 1)) / 2 - count
-        }
-        if descending == (count - 2) {
-            return 0
-        }
+//        if ascending - descending == 0 && descending == count {
+//            return 0
+//        }
+//        if ascending == (count - 2) {
+//            return (count * (count + 1)) / 2 - count
+//        }
+//        if descending == (count - 2) {
+//            return 0
+//        }
         
 //        var trees = A.flatMap { (e) -> Tree in
 //            return Tree(e)
