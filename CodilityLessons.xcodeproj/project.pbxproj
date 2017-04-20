@@ -43,6 +43,7 @@
 		FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */; };
 		FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */; };
 		FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */; };
+		FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +99,7 @@
 		FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_TennisTournament.swift; sourceTree = "<group>"; };
 		FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_LongestPassword.swift; sourceTree = "<group>"; };
 		FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_FloodDepth.swift; sourceTree = "<group>"; };
+		FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_SocksLaundering.swift; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -185,6 +187,7 @@
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
+				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4Task2.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
+				FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */,
 				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,
 				FA1F2A2D1E953C66002437F3 /* Lesson3Task2.swift in Sources */,
 			);
