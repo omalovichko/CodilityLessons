@@ -41,6 +41,7 @@
 		FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */; };
 		FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */; };
 		FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */; };
+		FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 /* End PBXBuildFile section */
 
@@ -94,6 +95,7 @@
 		FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_PolygonConcavityIndex.swift; sourceTree = "<group>"; };
 		FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson16_MaxNonoverlappingSegments.swift; sourceTree = "<group>"; };
 		FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_TennisTournament.swift; sourceTree = "<group>"; };
+		FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_LongestPassword.swift; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +181,7 @@
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
+				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8Task2.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3Task1.swift in Sources */,
+				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
 				FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */,
 				FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */,
