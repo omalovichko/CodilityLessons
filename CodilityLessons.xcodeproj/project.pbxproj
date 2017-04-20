@@ -175,13 +175,13 @@
 				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
 				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
 				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
+				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 				FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */,
 				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
 				FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */,
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
-				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 			);
 			path = CodilityLessonsTests;
 			sourceTree = "<group>";
