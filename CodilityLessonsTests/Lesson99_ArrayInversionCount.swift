@@ -31,13 +31,16 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         
         arr = [-1, 6, 3, 4, 7, 4]
         XCTAssertEqual(solution(&arr), 4)
+        
+        arr = [1, 1, 1]
+        XCTAssertEqual(solution(&arr), 0)
     }
     
     func testMeasure1() {
         measure {
             var arr = [Int]()
             for i in 0..<1_000 {
-                arr.append(10_000 - i)
+                arr.append(1_000 - i)
             }
             XCTAssertEqual(self.solution(&arr), 499500)
         }
@@ -60,6 +63,37 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         if count <= 1 {
             return 0
         }
+        
+        var ascending = 0
+        var descending = 0
+        var lastElement = A.first!
+  
+        for i in 1..<count - 1 {
+            let a = A[i]
+            let b = A[i + 1]
+            if a == b {
+                ascending += 1
+                descending += 1
+            } else if a > b {
+                ascending += 1
+            } else {
+                descending += 1
+            }
+        }
+        
+        if ascending - descending == 0 && descending == count {
+            return 0
+        }
+        if ascending == (count - 2) {
+            return (count * (count + 1)) / 2 - count
+        }
+        if descending == (count - 2) {
+            return 0
+        }
+        
+//        var trees = A.flatMap { (e) -> Tree in
+//            return Tree(e)
+//        }
         
         var result = (tree: Tree(A.first!), count: 0)
         

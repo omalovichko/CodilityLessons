@@ -53,6 +53,11 @@ __Lesson 9 - Maximum slice problem__
 * MaxProfit: Given a log of stock prices compute the maximum possible earning.
 * MaxSliceSum: Find a maximum sum of a compact subsequence of array elements.
 
+__Lesson 99 - Future training__
+* SqlSum: Calculate sum of elements.
+* StrSymmetryPoint: Find a symmetry point of a string, if any.
+* TreeHeight: Compute the height of a binary tree.
+
 Lessons in progress:
 ------
 
@@ -63,23 +68,55 @@ __Lesson 10 - Prime and composite numbers__
 * Flags: Find the maximum number of flags that can be set on mountain peaks.
 
 __Lesson 11 - Sieve of Eratosthenes__
+* CountSemiprimes: Count the semiprime numbers in the given range [a..b]
+* CountNonDivisible: Calculate the number of elements of an array that are not divisors of each element.
 
 __Lesson 12 - Euclidean algorithm__
+* ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
+* CommonPrimeDivisors: Check whether two numbers have the same prime divisors.
 
 __Lesson 13 - Fibonacci numbers__
+* Ladder: Count the number of different ways of climbing to the top of a ladder.
+* FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.
 
 __Lesson 14 - Binary search algorithm__
+* NailingPlanks: Count the minimum number of nails that allow a series of planks to be nailed.
+* MinMaxDivision: Divide array A into K blocks and minimize the largest sum of any block.
 
 __Lesson 15 - Caterpillar method__
+* AbsDistinct: Compute number of distinct absolute values of sorted array elements.
+* CountTriangles: Count the number of triangles that can be built from a given set of edges.
+* CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
+* MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
 
 __Lesson 16 - Greedy algorithms__
+* MaxNonoverlappingSegments: Find a maximal set of non-overlapping segments.
+* TieRopes: Tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 __Lesson 17 - Dynamic programming__
+* NumberSolitaire: In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.
+* MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
+
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
+* LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
+* FloodDepth: Find the maximum depth of water in mountains after a huge rainfall.
+* SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
+
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
+* RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
+* DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.
+* HilbertMaze: Find the shortest path between two fields in a Hilbert maze.
+* TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.
+
 
 __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
+* TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
+* SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
+* ArrayRecovery: Recover a broken array using partial information in another array.
+* DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 
 __Lesson 99 - Future training__
+* ArrayInversionCount: Compute number of inversion in an array.
+* PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.
