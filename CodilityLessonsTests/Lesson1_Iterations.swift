@@ -1,5 +1,5 @@
 //
-//  Lesson1Task1.swift
+//  Lesson1_Iterations.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/21/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson1Task1: XCTestCase {
+class Lesson1_Iterations: XCTestCase {
     
     func test() {
         XCTAssertEqual(solution(1041), 5)

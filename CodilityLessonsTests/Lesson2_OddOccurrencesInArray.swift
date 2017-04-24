@@ -1,5 +1,5 @@
 //
-//  L2_1.swift
+//  Lesson2_OddOccurrencesInArray.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/21/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson2Task1: XCTestCase {
+class Lesson2_OddOccurrencesInArray: XCTestCase {
 
     func test() {
         var arr = [9, 3, 9, 3, 9, 7, 9]

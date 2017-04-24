@@ -1,5 +1,5 @@
 //
-//  L2_2.swift
+//  Lesson2_CyclicRotation.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/23/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson2Task2: XCTestCase {
+class Lesson2_CyclicRotation: XCTestCase {
     
     func test() {
         var arr = [3, 8, 9, 7, 6]

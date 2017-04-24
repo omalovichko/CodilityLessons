@@ -1,5 +1,5 @@
 //
-//  Lesson8Task1.swift
+//  Lesson8_EquiLeader.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/12/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson8Task1: XCTestCase {
+class Lesson8_EquiLeader: XCTestCase {
     
     func test() {
         var arr = [4, 3, 4, 4, 4, 2]

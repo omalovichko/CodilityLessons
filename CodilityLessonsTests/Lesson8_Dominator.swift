@@ -1,5 +1,5 @@
 //
-//  Lesson8Task2.swift
+//  Lesson8_Dominator.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/12/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson8Task2: XCTestCase {
+class Lesson8_Dominator: XCTestCase {
     
     func test() {
         var arr = [3, 4, 3, 2, 3, -1, 3, 3]
