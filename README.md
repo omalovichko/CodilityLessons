@@ -66,6 +66,8 @@ __Lesson 14 - Binary search algorithm__
 __Lesson 15 - Caterpillar method__
 
 __Lesson 16 - Greedy algorithms__
+* MaxNonoverlappingSegments: Find a maximal set of non-overlapping segments.
+* TieRopes: Tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 __Lesson 17 - Dynamic programming__
 
@@ -115,10 +117,6 @@ __Lesson 15 - Caterpillar method__
 * CountTriangles: Count the number of triangles that can be built from a given set of edges.
 * CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
 * MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
-
-__Lesson 16 - Greedy algorithms__
-* MaxNonoverlappingSegments: Find a maximal set of non-overlapping segments.
-* TieRopes: Tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 __Lesson 17 - Dynamic programming__
 * NumberSolitaire: In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.
