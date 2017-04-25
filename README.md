@@ -70,6 +70,7 @@ __Lesson 16 - Greedy algorithms__
 * TieRopes: Tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 __Lesson 17 - Dynamic programming__
+* NumberSolitaire: In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
@@ -77,10 +78,11 @@ __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
-* TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
-* SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
+
 
 __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
+* TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
+* SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
 
 __Lesson 99 - Future training__
 * SqlSum: Calculate sum of elements.
@@ -129,7 +131,6 @@ __Lesson 15 - Caterpillar method__
 * MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
 
 __Lesson 17 - Dynamic programming__
-* NumberSolitaire: In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.
 * MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
