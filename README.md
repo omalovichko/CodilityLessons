@@ -87,6 +87,16 @@ __Lesson 99 - Future training__
 * StrSymmetryPoint: Find a symmetry point of a string, if any.
 * TreeHeight: Compute the height of a binary tree.
 
+
+Complexity optimisation are needed:
+------
+
+__Lesson 91 - Tasks from Indeed Prime 2016 challenge__
+* RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
+
+__Lesson 99 - Future training__
+* ArrayInversionCount: Compute number of inversion in an array.
+
 <!-- Lessons in progress:
 ------
 
@@ -126,7 +136,6 @@ __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
-* RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
 * DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.
 * HilbertMaze: Find the shortest path between two fields in a Hilbert maze.
 * TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.
@@ -136,6 +145,5 @@ __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
 * DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 
 __Lesson 99 - Future training__
-* ArrayInversionCount: Compute number of inversion in an array.
 * PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull. 
 -->
