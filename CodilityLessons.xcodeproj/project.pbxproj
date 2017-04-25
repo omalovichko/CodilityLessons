@@ -19,13 +19,13 @@
 		FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */; };
 		FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */; };
 		FA1F2A2B1E953C66002437F3 /* Lesson2_CyclicRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */; };
-		FA1F2A2C1E953C66002437F3 /* Lesson3Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1C1E953C66002437F3 /* Lesson3Task1.swift */; };
-		FA1F2A2D1E953C66002437F3 /* Lesson3Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1D1E953C66002437F3 /* Lesson3Task2.swift */; };
-		FA1F2A2E1E953C66002437F3 /* Lesson3Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1E1E953C66002437F3 /* Lesson3Task3.swift */; };
-		FA1F2A2F1E953C66002437F3 /* Lesson4Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1F1E953C66002437F3 /* Lesson4Task1.swift */; };
-		FA1F2A301E953C66002437F3 /* Lesson4Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A201E953C66002437F3 /* Lesson4Task2.swift */; };
-		FA1F2A311E953C66002437F3 /* Lesson4Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A211E953C66002437F3 /* Lesson4Task3.swift */; };
-		FA1F2A321E953C66002437F3 /* Lesson4Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A221E953C66002437F3 /* Lesson4Task4.swift */; };
+		FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */; };
+		FA1F2A2D1E953C66002437F3 /* Lesson3_PermMissingElem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */; };
+		FA1F2A2E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */; };
+		FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */; };
+		FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */; };
+		FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */; };
+		FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */; };
 		FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */; };
 		FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */; };
 		FA1F2A351E953C66002437F3 /* Lesson5Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */; };
@@ -77,13 +77,13 @@
 		FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson1_Iterations.swift; sourceTree = "<group>"; };
 		FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_OddOccurrencesInArray.swift; sourceTree = "<group>"; };
 		FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson2_CyclicRotation.swift; sourceTree = "<group>"; };
-		FA1F2A1C1E953C66002437F3 /* Lesson3Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3Task1.swift; sourceTree = "<group>"; };
-		FA1F2A1D1E953C66002437F3 /* Lesson3Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3Task2.swift; sourceTree = "<group>"; };
-		FA1F2A1E1E953C66002437F3 /* Lesson3Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3Task3.swift; sourceTree = "<group>"; };
-		FA1F2A1F1E953C66002437F3 /* Lesson4Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4Task1.swift; sourceTree = "<group>"; };
-		FA1F2A201E953C66002437F3 /* Lesson4Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4Task2.swift; sourceTree = "<group>"; };
-		FA1F2A211E953C66002437F3 /* Lesson4Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4Task3.swift; sourceTree = "<group>"; };
-		FA1F2A221E953C66002437F3 /* Lesson4Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4Task4.swift; sourceTree = "<group>"; };
+		FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_FrogJmp.swift; sourceTree = "<group>"; };
+		FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_PermMissingElem.swift; sourceTree = "<group>"; };
+		FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson3_TapeEquilibrium.swift; sourceTree = "<group>"; };
+		FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_MissingInteger.swift; sourceTree = "<group>"; };
+		FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_PermCheck.swift; sourceTree = "<group>"; };
+		FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_FrogRiverOne.swift; sourceTree = "<group>"; };
+		FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_MaxCounters.swift; sourceTree = "<group>"; };
 		FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task1.swift; sourceTree = "<group>"; };
 		FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task2.swift; sourceTree = "<group>"; };
 		FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task3.swift; sourceTree = "<group>"; };
@@ -158,13 +158,13 @@
 				FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */,
 				FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */,
 				FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */,
-				FA1F2A1C1E953C66002437F3 /* Lesson3Task1.swift */,
-				FA1F2A1D1E953C66002437F3 /* Lesson3Task2.swift */,
-				FA1F2A1E1E953C66002437F3 /* Lesson3Task3.swift */,
-				FA1F2A1F1E953C66002437F3 /* Lesson4Task1.swift */,
-				FA1F2A201E953C66002437F3 /* Lesson4Task2.swift */,
-				FA1F2A211E953C66002437F3 /* Lesson4Task3.swift */,
-				FA1F2A221E953C66002437F3 /* Lesson4Task4.swift */,
+				FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */,
+				FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */,
+				FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */,
+				FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */,
+				FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */,
+				FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */,
+				FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */,
 				FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */,
 				FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */,
 				FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */,
@@ -303,10 +303,10 @@
 				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */,
 				FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */,
-				FA1F2A2E1E953C66002437F3 /* Lesson3Task3.swift in Sources */,
+				FA1F2A2E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift in Sources */,
 				FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */,
 				FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */,
-				FA1F2A321E953C66002437F3 /* Lesson4Task4.swift in Sources */,
+				FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */,
 				FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */,
 				FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */,
 				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
@@ -317,23 +317,23 @@
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
-				FA1F2A2C1E953C66002437F3 /* Lesson3Task1.swift in Sources */,
+				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
 				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
 				FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */,
 				FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */,
 				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7Task1.swift in Sources */,
-				FA1F2A2F1E953C66002437F3 /* Lesson4Task1.swift in Sources */,
-				FA1F2A311E953C66002437F3 /* Lesson4Task3.swift in Sources */,
+				FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */,
+				FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */,
 				FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */,
 				FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */,
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
-				FA1F2A301E953C66002437F3 /* Lesson4Task2.swift in Sources */,
+				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
 				FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */,
 				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,
-				FA1F2A2D1E953C66002437F3 /* Lesson3Task2.swift in Sources */,
+				FA1F2A2D1E953C66002437F3 /* Lesson3_PermMissingElem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

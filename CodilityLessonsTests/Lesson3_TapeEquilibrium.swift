@@ -1,5 +1,5 @@
 //
-//  L3_3.swift
+//  Lesson3_TapeEquilibrium.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/28/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson3Task3: XCTestCase {
+class Lesson3_TapeEquilibrium: XCTestCase {
     
     func test() {
         var arr = [3, 1, 2, 4, 3]

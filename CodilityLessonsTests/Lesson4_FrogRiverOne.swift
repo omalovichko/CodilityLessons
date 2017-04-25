@@ -1,5 +1,5 @@
 //
-//  L4_3.swift
+//  Lesson4_FrogRiverOne.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/29/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson4Task3: XCTestCase {
+class Lesson4_FrogRiverOne: XCTestCase {
     
     func test() {
         var arr = [1, 3, 1, 4, 2, 3, 5, 4]

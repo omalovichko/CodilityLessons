@@ -1,5 +1,5 @@
 //
-//  L4_1.swift
+//  Lesson4_MissingInteger.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/28/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson4Task1: XCTestCase {
+class Lesson4_MissingInteger: XCTestCase {
     
     func test() {
         var arr = [1, 3, 6, 4, 1, 2, -10]

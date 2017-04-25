@@ -1,5 +1,5 @@
 //
-//  3_2.swift
+//  Lesson3_PermMissingElem.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/27/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson3Task2: XCTestCase {
+class Lesson3_PermMissingElem: XCTestCase {
     
     func test() {
         var arr = [2, 3, 1, 5]

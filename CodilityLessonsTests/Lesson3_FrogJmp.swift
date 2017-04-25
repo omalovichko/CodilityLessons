@@ -1,5 +1,5 @@
 //
-//  L3_1.swift
+//  Lesson3_FrogJmp.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/24/17.
@@ -9,7 +9,7 @@
 import XCTest
 import Foundation
 
-class Lesson3Task1: XCTestCase {
+class Lesson3_FrogJmp: XCTestCase {
     
     func test() {
         XCTAssertEqual(solution(1, 5, 2), 2)

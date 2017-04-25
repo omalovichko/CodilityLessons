@@ -1,5 +1,5 @@
 //
-//  L4_4.swift
+//  Lesson4_MaxCounters.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/29/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson4Task4: XCTestCase {
+class Lesson4_MaxCounters: XCTestCase {
     
     func test() {
         var arr = [3, 4, 4, 6, 1, 4, 4]

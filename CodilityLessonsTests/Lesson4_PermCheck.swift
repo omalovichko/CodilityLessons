@@ -1,5 +1,5 @@
 //
-//  L4_2.swift
+//  Lesson4_PermCheck.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/29/17.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson4Task2: XCTestCase {
+class Lesson4_PermCheck: XCTestCase {
     
     func test() {
         var arr = [4, 1, 3, 2]
