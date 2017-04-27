@@ -14,6 +14,8 @@
 		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
 		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
 		FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */; };
+		FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */; };
+		FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */; };
 		FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */; };
 		FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */; };
 		FA1F2A071E953B0D002437F3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A061E953B0D002437F3 /* main.swift */; };
@@ -74,6 +76,8 @@
 		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
 		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
 		FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_SlalomSkiing.swift; sourceTree = "<group>"; };
+		FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_CountFactors.swift; sourceTree = "<group>"; };
+		FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_MinPerimeterRectangle.swift; sourceTree = "<group>"; };
 		FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson16_TieRopes.swift; sourceTree = "<group>"; };
 		FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_RectangleBuilderGreaterArea.swift; sourceTree = "<group>"; };
 		FA1F2A031E953B0D002437F3 /* CodilityLessons */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodilityLessons; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +196,8 @@
 				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
 				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
 				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
+				FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */,
+				FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */,
 				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
 				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
 				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
@@ -314,6 +320,7 @@
 				FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */,
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
+				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */,
 				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */,
@@ -349,6 +356,7 @@
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
+				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
 				FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */,
 				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,

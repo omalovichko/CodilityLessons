@@ -93,6 +93,10 @@ __Lesson 99 - Future training__
 Complexity optimisation are needed:
 ------
 
+_Lesson 10 - Prime and composite numbers__
+* CountFactors: Count factors of given number n.
+* MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
+
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
 
@@ -106,8 +110,6 @@ __Lesson 99 - Future training__
 ------
 
 __Lesson 10 - Prime and composite numbers__
-* CountFactors: Count factors of given number n.
-* MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
 * Peaks: Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1].
 * Flags: Find the maximum number of flags that can be set on mountain peaks.
 
