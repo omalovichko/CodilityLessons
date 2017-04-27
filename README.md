@@ -64,6 +64,7 @@ __Lesson 13 - Fibonacci numbers__
 __Lesson 14 - Binary search algorithm__
 
 __Lesson 15 - Caterpillar method__
+* AbsDistinct: Compute number of distinct absolute values of sorted array elements.
 
 __Lesson 16 - Greedy algorithms__
 * MaxNonoverlappingSegments: Find a maximal set of non-overlapping segments.
@@ -76,9 +77,8 @@ __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
 * FloodDepth: Find the maximum depth of water in mountains after a huge rainfall.
 
-
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
-
+* DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.
 
 __Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__
 * TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
@@ -92,6 +92,9 @@ __Lesson 99 - Future training__
 
 Complexity optimisation are needed:
 ------
+
+__Lesson 90 - Tasks from Indeed Prime 2015 challenge__
+* SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
 * RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
@@ -125,7 +128,6 @@ __Lesson 14 - Binary search algorithm__
 * MinMaxDivision: Divide array A into K blocks and minimize the largest sum of any block.
 
 __Lesson 15 - Caterpillar method__
-* AbsDistinct: Compute number of distinct absolute values of sorted array elements.
 * CountTriangles: Count the number of triangles that can be built from a given set of edges.
 * CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
 * MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
@@ -133,11 +135,7 @@ __Lesson 15 - Caterpillar method__
 __Lesson 17 - Dynamic programming__
 * MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
-__Lesson 90 - Tasks from Indeed Prime 2015 challenge__
-* SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.
-
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
-* DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.
 * HilbertMaze: Find the shortest path between two fields in a Hilbert maze.
 * TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.
 
