@@ -93,7 +93,7 @@ __Lesson 99 - Future training__
 Complexity optimisation are needed:
 ------
 
-_Lesson 10 - Prime and composite numbers__
+__Lesson 10 - Prime and composite numbers__
 * CountFactors: Count factors of given number n.
 * MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
 

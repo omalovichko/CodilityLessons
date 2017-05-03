@@ -37,6 +37,7 @@
 		FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */; };
 		FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */; };
 		FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */; };
+		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
 		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7Task1.swift */; };
 		FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7Task2.swift */; };
 		FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB11E9E3FF900C9BA31 /* Lesson7Task3.swift */; };
@@ -102,6 +103,7 @@
 		FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task2.swift; sourceTree = "<group>"; };
 		FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task3.swift; sourceTree = "<group>"; };
 		FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task4.swift; sourceTree = "<group>"; };
+		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
 		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task1.swift; sourceTree = "<group>"; };
 		FA6A4DAF1E9D56C200C9BA31 /* Lesson7Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task2.swift; sourceTree = "<group>"; };
 		FA6A4DB11E9E3FF900C9BA31 /* Lesson7Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task3.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
 				FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */,
 				FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */,
+				FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */,
 				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
 				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
 				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
@@ -342,6 +345,7 @@
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
+				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
 				FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */,
 				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
