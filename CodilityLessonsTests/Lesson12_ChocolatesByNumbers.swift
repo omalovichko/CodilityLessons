@@ -11,35 +11,34 @@ import XCTest
 class Lesson12_ChocolatesByNumbers: XCTestCase {
     
     func test() {
-        let c = CharacterSet()
+        XCTAssertEqual(solution(2, 1), 2)
         XCTAssertEqual(solution(10, 4), 5)
         XCTAssertEqual(solution(1, 1), 1)
-        XCTAssertEqual(solution(2, 1), 1)
+        XCTAssertEqual(solution(1000000000, 1), 1000000000)
+        measure {
+            XCTAssertEqual(self.solution(415633212, 234332), 103908303)
+        }
     }
     
     public func solution(_ N : Int, _ M : Int) -> Int {
-        print("N = " + N.description)
-        print("M = " + M.description)
-        
-        if N == M {
-            return 1
+        let count = N
+        let step = M
+        if step == 1 || count == 1 {
+            return count
         }
-        
         var chocolates = 0
-        var value = N
+        var nextPosition = 0
         while true {
-            let c = value / M
-            let o = value % M
-            chocolates += c
-            value = N - o
-            if o == 0 {
-                break
+            chocolates += 1
+            nextPosition += step
+            if nextPosition >= count {
+                nextPosition = nextPosition % count
+                
+                if nextPosition == 0 {
+                    return chocolates
+                }
             }
         }
-        
-        let x = Array<Int>()
-        
-        return chocolates
     }
 
 }
