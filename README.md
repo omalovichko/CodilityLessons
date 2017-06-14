@@ -93,6 +93,9 @@ __Lesson 99 - Future training__
 Complexity optimisation are needed:
 ------
 
+__Lesson 12 - Euclidean algorithm__
+* ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
+
 __Lesson 10 - Prime and composite numbers__
 * CountFactors: Count factors of given number n.
 * MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
@@ -118,7 +121,6 @@ __Lesson 11 - Sieve of Eratosthenes__
 * CountNonDivisible: Calculate the number of elements of an array that are not divisors of each element.
 
 __Lesson 12 - Euclidean algorithm__
-* ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
 * CommonPrimeDivisors: Check whether two numbers have the same prime divisors.
 
 __Lesson 13 - Fibonacci numbers__

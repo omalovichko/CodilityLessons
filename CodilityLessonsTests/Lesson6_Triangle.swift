@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson6Task3: XCTestCase {
+class Lesson6_Triangle: XCTestCase {
 
     func test() {
         var arr = [10, 2, 5, 1, 8, 20]

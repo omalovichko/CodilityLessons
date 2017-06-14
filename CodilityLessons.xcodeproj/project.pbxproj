@@ -29,19 +29,19 @@
 		FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */; };
 		FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */; };
 		FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */; };
-		FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */; };
-		FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */; };
-		FA1F2A351E953C66002437F3 /* Lesson5Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */; };
-		FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */; };
-		FA1F2A371E953C66002437F3 /* Lesson6Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */; };
-		FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */; };
-		FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */; };
-		FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */; };
+		FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */; };
+		FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */; };
+		FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */; };
+		FA1F2A361E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */; };
+		FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */; };
+		FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */; };
+		FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */; };
+		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
 		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
-		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7Task1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7Task1.swift */; };
-		FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7Task2.swift */; };
-		FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB11E9E3FF900C9BA31 /* Lesson7Task3.swift */; };
-		FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */; };
+		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */; };
+		FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */; };
+		FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */; };
+		FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */; };
 		FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */; };
 		FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */; };
 		FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */; };
@@ -95,19 +95,19 @@
 		FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_PermCheck.swift; sourceTree = "<group>"; };
 		FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_FrogRiverOne.swift; sourceTree = "<group>"; };
 		FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4_MaxCounters.swift; sourceTree = "<group>"; };
-		FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task1.swift; sourceTree = "<group>"; };
-		FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task2.swift; sourceTree = "<group>"; };
-		FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task3.swift; sourceTree = "<group>"; };
-		FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5Task4.swift; sourceTree = "<group>"; };
-		FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task1.swift; sourceTree = "<group>"; };
-		FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task2.swift; sourceTree = "<group>"; };
-		FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task3.swift; sourceTree = "<group>"; };
-		FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6Task4.swift; sourceTree = "<group>"; };
+		FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_CountDiv.swift; sourceTree = "<group>"; };
+		FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_PassingCars.swift; sourceTree = "<group>"; };
+		FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_MinAvgTwoSlice.swift; sourceTree = "<group>"; };
+		FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_Lesson5_GenomicRangeQuery.swift; sourceTree = "<group>"; };
+		FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Distinct.swift; sourceTree = "<group>"; };
+		FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_MaxProductOfThree.swift; sourceTree = "<group>"; };
+		FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Triangle.swift; sourceTree = "<group>"; };
+		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
 		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
-		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7Task1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task1.swift; sourceTree = "<group>"; };
-		FA6A4DAF1E9D56C200C9BA31 /* Lesson7Task2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task2.swift; sourceTree = "<group>"; };
-		FA6A4DB11E9E3FF900C9BA31 /* Lesson7Task3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task3.swift; sourceTree = "<group>"; };
-		FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7Task4.swift; sourceTree = "<group>"; };
+		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Brackets.swift; sourceTree = "<group>"; };
+		FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Fish.swift; sourceTree = "<group>"; };
+		FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Nesting.swift; sourceTree = "<group>"; };
+		FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_StoneWall.swift; sourceTree = "<group>"; };
 		FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8_EquiLeader.swift; sourceTree = "<group>"; };
 		FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson8_Dominator.swift; sourceTree = "<group>"; };
 		FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_PolygonConcavityIndex.swift; sourceTree = "<group>"; };
@@ -181,18 +181,18 @@
 				FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */,
 				FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */,
 				FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */,
-				FA1F2A231E953C66002437F3 /* Lesson5Task1.swift */,
-				FA1F2A241E953C66002437F3 /* Lesson5Task2.swift */,
-				FA1F2A251E953C66002437F3 /* Lesson5Task3.swift */,
-				FA1F2A261E953C66002437F3 /* Lesson5Task4.swift */,
-				FA1F2A271E953C66002437F3 /* Lesson6Task1.swift */,
-				FA1F2A281E953C66002437F3 /* Lesson6Task2.swift */,
-				FA1F2A391E95413B002437F3 /* Lesson6Task3.swift */,
-				FA1F2A3B1E954154002437F3 /* Lesson6Task4.swift */,
-				FA6A4DAD1E9D08BE00C9BA31 /* Lesson7Task1.swift */,
-				FA6A4DAF1E9D56C200C9BA31 /* Lesson7Task2.swift */,
-				FA6A4DB11E9E3FF900C9BA31 /* Lesson7Task3.swift */,
-				FA6A4DB31E9E400D00C9BA31 /* Lesson7Task4.swift */,
+				FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */,
+				FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */,
+				FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */,
+				FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */,
+				FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */,
+				FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */,
+				FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */,
+				FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */,
+				FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */,
+				FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */,
+				FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */,
+				FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */,
 				FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */,
 				FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */,
 				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
@@ -329,21 +329,21 @@
 				FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */,
 				FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */,
 				FA1F2A2E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift in Sources */,
-				FA1F2A341E953C66002437F3 /* Lesson5Task2.swift in Sources */,
-				FA1F2A3A1E95413B002437F3 /* Lesson6Task3.swift in Sources */,
+				FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */,
+				FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */,
 				FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */,
-				FA1F2A361E953C66002437F3 /* Lesson5Task4.swift in Sources */,
-				FA1F2A3C1E954154002437F3 /* Lesson6Task4.swift in Sources */,
+				FA1F2A361E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift in Sources */,
+				FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */,
 				FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */,
 				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,
 				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
 				FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */,
 				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,
 				FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */,
-				FA1F2A371E953C66002437F3 /* Lesson6Task1.swift in Sources */,
-				FA1F2A351E953C66002437F3 /* Lesson5Task3.swift in Sources */,
-				FA6A4DB41E9E400D00C9BA31 /* Lesson7Task4.swift in Sources */,
-				FA6A4DB21E9E3FF900C9BA31 /* Lesson7Task3.swift in Sources */,
+				FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */,
+				FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */,
+				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
+				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
 				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
@@ -351,14 +351,14 @@
 				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
 				FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */,
-				FA1F2A331E953C66002437F3 /* Lesson5Task1.swift in Sources */,
-				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7Task1.swift in Sources */,
+				FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */,
+				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */,
 				FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */,
 				FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */,
-				FA1F2A381E953C66002437F3 /* Lesson6Task2.swift in Sources */,
+				FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */,
 				FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */,
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
-				FA6A4DB01E9D56C200C9BA31 /* Lesson7Task2.swift in Sources */,
+				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
 				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,

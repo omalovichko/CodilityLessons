@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson5Task2: XCTestCase {
+class Lesson5_PassingCars: XCTestCase {
     
     func test() {
         var arr = [0, 1, 0, 1, 1]

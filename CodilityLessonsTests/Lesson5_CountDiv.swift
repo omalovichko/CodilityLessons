@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson5Task1: XCTestCase {
+class Lesson5_CountDiv: XCTestCase {
     
     func test() {
         XCTAssertEqual(solution(10, 11, 2), 1)

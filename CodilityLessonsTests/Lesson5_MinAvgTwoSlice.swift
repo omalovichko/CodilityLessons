@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson5Task3: XCTestCase {
+class Lesson5_MinAvgTwoSlice: XCTestCase {
     
     func test() {
         var arr = [4, 2, 2, 5, 1, 5, 8]

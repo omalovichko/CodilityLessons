@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson7Task3: XCTestCase {
+class Lesson7_Nesting: XCTestCase {
     func test() {
         var s0 = ")("
         XCTAssertEqual(solution(&s0), 0)

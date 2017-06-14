@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson7Task2: XCTestCase {
+class Lesson7_Fish: XCTestCase {
     
     
     func test() {

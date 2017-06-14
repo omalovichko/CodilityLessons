@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson7Task1: XCTestCase {
+class Lesson7_Brackets: XCTestCase {
     
     func test() {
         var s0 = ")("

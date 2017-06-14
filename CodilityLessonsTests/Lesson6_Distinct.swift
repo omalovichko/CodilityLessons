@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson6Task1: XCTestCase {
+class Lesson6_Distinct: XCTestCase {
     
     func test() {
         var arr = [1, 2, 3, 1]

@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson7Task4: XCTestCase {
+class Lesson7_StoneWall: XCTestCase {
  
     func test() {
         var input = [8, 8, 5, 7, 9, 8, 7, 4, 8]

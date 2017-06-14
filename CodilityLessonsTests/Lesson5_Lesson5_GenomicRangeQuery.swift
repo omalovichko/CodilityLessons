@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson5Task4: XCTestCase {
+class Lesson5_GenomicRangeQuery: XCTestCase {
     
     func test() {
         var s = "CAGCCTA"

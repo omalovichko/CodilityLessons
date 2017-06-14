@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Lesson6Task4: XCTestCase {
+class Lesson6_NumberOfDiscIntersections: XCTestCase {
     
     func test() {
         var arr = [1, 5, 2, 1, 4, 0]
