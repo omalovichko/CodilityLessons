@@ -54,6 +54,7 @@ __Lesson 9 - Maximum slice problem__
 * MaxSliceSum: Find a maximum sum of a compact subsequence of array elements.
 
 __Lesson 10 - Prime and composite numbers__
+* CountFactors: Count factors of given number n.
 
 __Lesson 11 - Sieve of Eratosthenes__
 
@@ -97,7 +98,6 @@ __Lesson 12 - Euclidean algorithm__
 * ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
 
 __Lesson 10 - Prime and composite numbers__
-* CountFactors: Count factors of given number n.
 * MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
