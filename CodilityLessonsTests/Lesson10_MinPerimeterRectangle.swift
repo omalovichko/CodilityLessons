@@ -14,19 +14,17 @@ class Lesson10_MinPerimeterRectangle: XCTestCase {
         XCTAssertEqual(solution(1), 4)
         XCTAssertEqual(solution(30), 22)
         XCTAssertEqual(solution(101), 204)
+        XCTAssertEqual(solution(15486451), 30972904)
     }
     
     public func solution(_ N : Int) -> Int {
-        var minimalPerimeter = Int.max
-        for i in 1...N {
-            for j in 1...N {
-                guard i * j == N else {
-                    continue
-                }
-                minimalPerimeter = min((i + j) * 2, minimalPerimeter)
+        let side = Int(sqrt(Double(N)).rounded(FloatingPointRoundingRule.up))
+        
+        for i in stride(from: side, to: 0, by: -1) {
+            if N % i == 0 {
+                return (i + N / i) * 2
             }
         }
-        return minimalPerimeter
+        return -1
     }
-
 }
