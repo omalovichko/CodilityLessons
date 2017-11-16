@@ -18,7 +18,7 @@ class Lesson99_StrSymmetryPoint: XCTestCase {
     }
     
     public func solution(_ S : inout String) -> Int {
-        let count = S.characters.count
+        let count = S.count
         
         if count == 1 {
             return 0
@@ -33,8 +33,8 @@ class Lesson99_StrSymmetryPoint: XCTestCase {
         let left = S.index(S.startIndex, offsetBy: center)
         let right = S.index(S.startIndex, offsetBy: count - center)
         
-        let leftSubstring = S.substring(to: left)
-        let rightReversedSubstring = String(S.substring(from: right).characters.reversed())
+        let leftSubstring = S[..<left]
+        let rightReversedSubstring = String(S[right...].reversed())
         
         return leftSubstring == rightReversedSubstring ? center : -1
     }

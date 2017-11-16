@@ -39,13 +39,13 @@ class Lesson7_Brackets: XCTestCase {
     }
     
     public func solution(_ S : inout String) -> Int {
-        let count = S.characters.count
+        let count = S.count
         if count == 0 {
             return 1
         }
         let dict: Dictionary<Character, Character> = ["{": "}", "[": "]", "(": ")"]
         var stack = Stack<Character>(capacity: count)
-        for c in S.characters {
+        for c in S {
             if c == "{" || c == "[" || c == "(" {
                 stack.push(c)
             } else if let last = stack.front(), dict[last] == c {

@@ -20,7 +20,7 @@ class Lesson1_Iterations: XCTestCase {
         var maxLength = 0
         var length = 0
         
-        for c in str.characters {
+        for c in str {
             if c ==  "0" {
                 length += 1
             } else {

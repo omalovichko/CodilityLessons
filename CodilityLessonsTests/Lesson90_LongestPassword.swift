@@ -25,7 +25,7 @@ class Lesson90_LongestPassword: XCTestCase {
     
     public func solution(_ S : inout String) -> Int {
         let passwords = S.components(separatedBy: " ").sorted { (l, r) -> Bool in
-            return l.characters.count > r.characters.count
+            return l.count > r.count
         }
         
         let letters = CharacterSet.letters
@@ -43,9 +43,9 @@ class Lesson90_LongestPassword: XCTestCase {
                     break
                 }
             }
-            if lettersCount + digitsCount == password.characters.count {
+            if lettersCount + digitsCount == password.count {
                 if lettersCount % 2 == 0 && digitsCount % 2 == 1 {
-                    return password.characters.count
+                    return password.count
                 }
             }
         }

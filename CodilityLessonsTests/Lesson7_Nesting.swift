@@ -27,12 +27,12 @@ class Lesson7_Nesting: XCTestCase {
     }
     
     public func solution(_ S : inout String) -> Int {
-        let count = S.characters.count
+        let count = S.count
         if count == 0 {
             return 1
         }
         var stack = Stack<Character>(capacity: count)
-        for c in S.characters {
+        for c in S {
             if c == "(" {
                 stack.push(c)
             } else if stack.count() != 0 {

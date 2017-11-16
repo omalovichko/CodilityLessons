@@ -48,7 +48,7 @@ class Lesson91_DwarfsRafting: XCTestCase {
         typealias Position = (x: Int, y: Int)
         typealias Quarter = (barrels: Int, dwarfs: Int)
         
-        let letters = "abcdefghijklmnopqrstuvwxyz".uppercased().characters
+        let letters = "abcdefghijklmnopqrstuvwxyz".uppercased()
         
         var frontLeft = Quarter(0, 0)
         var frontRight = Quarter(0, 0)
@@ -94,18 +94,18 @@ class Lesson91_DwarfsRafting: XCTestCase {
             self.size = size
             quarterSize = size * size / 4
 
-            for barrel in barrels.components(separatedBy: " ") where barrels.characters.count > 0 {
+            for barrel in barrels.components(separatedBy: " ") where barrels.count > 0 {
                 placeBarrel(position: barrel)
             }
             
-            for occupiedSeat in occupiedSeats.components(separatedBy: " ") where occupiedSeats.characters.count > 0 {
+            for occupiedSeat in occupiedSeats.components(separatedBy: " ") where occupiedSeats.count > 0 {
                 occupySeat(position: occupiedSeat)
             }
         }
         
         func parseStringPosition(position: String) -> Position {
             var position = position
-            let charPosX = position.characters.popLast()!
+            let charPosX = position.removeLast()
             let posX = letters.distance(from: letters.startIndex, to: letters.index(of: charPosX)!) + 1
             let posY = Int(position)!
             return Position(x: posX, y: posY)

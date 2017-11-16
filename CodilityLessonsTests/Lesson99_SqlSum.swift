@@ -10,6 +10,10 @@ import XCTest
 
 class Lesson99_SqlSum: XCTestCase {
     
+    func test() {
+        XCTAssertEqual(solution(), "SELECT SUM(v) FROM elements")
+    }
+    
     func solution() -> String {
         return "SELECT SUM(v) FROM elements"
     }

@@ -23,7 +23,7 @@ class Lesson5_GenomicRangeQuery: XCTestCase {
     }
     
     public func solution(_ S : inout String, _ P : inout [Int], _ Q : inout [Int]) -> [Int] {
-        var prefixSumA = S.characters.map({ () -> (Character) -> Int in
+        var prefixSumA = S.map({ () -> (Character) -> Int in
             var s = 0; return {
                 if $0 == "A" {
                     return (s += 1, s).1
@@ -32,7 +32,7 @@ class Lesson5_GenomicRangeQuery: XCTestCase {
             }
             }())
         prefixSumA.insert(0, at: 0)
-        var prefixSumC = S.characters.map({ () -> (Character) -> Int in
+        var prefixSumC = S.map({ () -> (Character) -> Int in
             var s = 0; return {
                 if $0 == "C" {
                     return (s += 1, s).1
@@ -41,7 +41,7 @@ class Lesson5_GenomicRangeQuery: XCTestCase {
             }
             }())
         prefixSumC.insert(0, at: 0)
-        var prefixSumG = S.characters.map({ () -> (Character) -> Int in
+        var prefixSumG = S.map({ () -> (Character) -> Int in
             var s = 0; return {
                 if $0 == "G" {
                     return (s += 1, s).1
