@@ -121,6 +121,7 @@
 		FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_LongestPassword.swift; sourceTree = "<group>"; };
 		FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_FloodDepth.swift; sourceTree = "<group>"; };
 		FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_SocksLaundering.swift; sourceTree = "<group>"; };
+		FA9620F41FBEF20000A4B668 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 		FA1F29FA1E953B0D002437F3 = {
 			isa = PBXGroup;
 			children = (
+				FA9620F41FBEF20000A4B668 /* .travis.yml */,
 				FAC133E01EF15A8100BCEBB9 /* README.md */,
 				FA1F2A051E953B0D002437F3 /* CodilityLessons */,
 				FA1F2A121E953B44002437F3 /* CodilityLessonsTests */,
