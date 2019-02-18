@@ -38,6 +38,7 @@
 		FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */; };
 		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
 		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
+		FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */; };
 		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */; };
 		FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */; };
 		FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */; };
@@ -105,6 +106,7 @@
 		FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Triangle.swift; sourceTree = "<group>"; };
 		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
 		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
+		FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson17_MinAbsSum.swift; sourceTree = "<group>"; };
 		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Brackets.swift; sourceTree = "<group>"; };
 		FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Fish.swift; sourceTree = "<group>"; };
 		FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Nesting.swift; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
 				FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */,
 				FA8EF8851EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift */,
+				FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */,
 				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 				FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */,
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
@@ -370,6 +373,7 @@
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
 				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
+				FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
 				FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */,
 				FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */,
