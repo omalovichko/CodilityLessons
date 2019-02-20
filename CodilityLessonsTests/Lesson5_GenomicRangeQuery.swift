@@ -1,5 +1,5 @@
 //
-//  L5_4.swift
+//  Lesson5_GenomicRangeQuery.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/30/17.

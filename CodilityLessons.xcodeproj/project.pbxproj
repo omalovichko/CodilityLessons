@@ -32,7 +32,7 @@
 		FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */; };
 		FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */; };
 		FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */; };
-		FA1F2A361E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */; };
+		FA1F2A361E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */; };
 		FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */; };
 		FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */; };
 		FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */; };
@@ -100,7 +100,7 @@
 		FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_CountDiv.swift; sourceTree = "<group>"; };
 		FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_PassingCars.swift; sourceTree = "<group>"; };
 		FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_MinAvgTwoSlice.swift; sourceTree = "<group>"; };
-		FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_Lesson5_GenomicRangeQuery.swift; sourceTree = "<group>"; };
+		FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson5_GenomicRangeQuery.swift; sourceTree = "<group>"; };
 		FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Distinct.swift; sourceTree = "<group>"; };
 		FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_MaxProductOfThree.swift; sourceTree = "<group>"; };
 		FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Triangle.swift; sourceTree = "<group>"; };
@@ -189,10 +189,10 @@
 				FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */,
 				FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */,
 				FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */,
-				FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */,
 				FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */,
+				FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */,
 				FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */,
-				FA1F2A261E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift */,
+				FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */,
 				FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */,
 				FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */,
 				FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */,
@@ -343,7 +343,7 @@
 				FA1F2A341E953C66002437F3 /* Lesson5_PassingCars.swift in Sources */,
 				FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */,
 				FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */,
-				FA1F2A361E953C66002437F3 /* Lesson5_Lesson5_GenomicRangeQuery.swift in Sources */,
+				FA1F2A361E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift in Sources */,
 				FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */,
 				FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */,
 				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  L5_3.swift
+//  Lesson5_MinAvgTwoSlice.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 3/30/17.

@@ -1,5 +1,5 @@
 //
-//  L6_1.swift
+//  Lesson6_Distinct.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/4/17.

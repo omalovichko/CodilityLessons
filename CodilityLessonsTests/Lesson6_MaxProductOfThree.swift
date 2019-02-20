@@ -1,5 +1,5 @@
 //
-//  L6_2.swift
+//  Lesson6_MaxProductOfThree.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/4/17.
