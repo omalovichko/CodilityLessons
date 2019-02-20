@@ -36,7 +36,7 @@ import XCTest
  
  N is an integer within the range [0..20,000];
  each element of array A is an integer within the range [−100..100].
- */
+*/
 
 class Lesson17_MinAbsSum: XCTestCase {
     

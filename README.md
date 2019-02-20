@@ -1,9 +1,9 @@
 # Codility Lessons [![Build Status](https://travis-ci.org/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.org/omalovichko/CodilityLessons)
 Codility lessons solutions solved in Swift 4.2
 
-Correctness: 💯🔥%
+Correctness: *100%*🔥
 
-Performance: 💯🔥%
+Performance: *100%*🔥
 
 Finished lessons:
 ------
@@ -16,14 +16,14 @@ __Lesson 2 - Arrays__
 * CyclicRotation: Rotate an array to the right by a given number of steps.
 
 __Lesson 3 - Time Complexity__
-* PermMissingElem: Find the missing element in a given permutation.
 * FrogJmp: Count minimal number of jumps from position X to Y.
+* PermMissingElem: Find the missing element in a given permutation.
 * TapeEquilibrium: Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
 
 __Lesson 4 - Counting Elements__
-* MissingInteger: Find the minimal positive integer not occurring in a given sequence.
 * PermCheck: Check whether array A is a permutation.
 * FrogRiverOne: Find the earliest time when a frog can jump to the other side of a river.
+* MissingInteger: Find the minimal positive integer not occurring in a given sequence.
 * MaxCounters: Calculate the values of counters after applying all alternating operations: increase counter by 1; set value of all counters to current maximum.
 
 __Lesson 5 - Prefix Sums__
