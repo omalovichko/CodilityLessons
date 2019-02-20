@@ -36,10 +36,10 @@ import XCTest
  
  N is an integer within the range [0..20,000];
  each element of array A is an integer within the range [−100..100].
-*/
+ */
 
 class Lesson17_MinAbsSum: XCTestCase {
-
+    
     func test() {
         var a = [Int]()
         
@@ -54,45 +54,115 @@ class Lesson17_MinAbsSum: XCTestCase {
         
         a = [1, 5, -2, 5, 2, 3]
         XCTAssertEqual(solution(&a), 0)
+        
+        a = [18, 99, -50, 100, 4, 18, 99, -50, 100, 4, 18, 99, -50, 100, 4, 18, 99, -50, 100, 4]
+        XCTAssertEqual(solution(&a), 0)
+        
+        a = [91, 92, 93, 94, 95, 96, 97]
+        XCTAssertEqual(solution(&a), 82)
     }
-
+    
     func testPerfomance() {
+        var a = Array(repeatElement(-100, count: 20_000))
         measure {
-//            var a = Array<Int>(repeatElement(-100, count: 20_000))
-            var a = Array<Int>(repeatElement(-100, count: 5_000))
             XCTAssertEqual(self.solution(&a), 0)
         }
     }
     
+    func testPerfomance2() {
+        var a = [Int]()
+        for _ in 0..<20_000 {
+            a.append(Int.random(in: -100...100))
+        }
+        measure {
+            _ = self.solution(&a)
+        }
+    }
+    
+    func testPerfomance3() {
+        var a = Array(repeatElement(5, count: 10_000))
+        a.append(contentsOf: Array(repeatElement(42, count: 10_000)))
+        a.shuffle()
+        measure {
+            _ = self.solution(&a)
+        }
+    }
+    
+    func testPerfomance4() {
+        // Time: 0.174 sec
+        var a = Array(repeatElement(4, count: 19_999))
+        a.append(1)
+        measure {
+            XCTAssertEqual(self.solution(&a), 3)
+        }
+    }
+    
     public func solution(_ A : inout [Int]) -> Int {
-        guard A.count > 0 else {
+        
+        if A.count == 0 {
             return 0
         }
         
-        var results = Set<Int>()
-        var minimum = Int.max
-                
-        A.forEach { (value) in
-            let absValue = abs(value)
-            guard !results.isEmpty else {
-                results.insert(absValue)
-                minimum = absValue
-                return
-            }
-            var nextResults = Set<Int>()
-            var nextMinimum = Int.max
-            results.forEach({ (result) in
-                let add = abs(result - absValue)
-                let subtract = abs(result + absValue)
-                nextMinimum = min(min(add, subtract), nextMinimum)
-                nextResults.insert(add)
-                nextResults.insert(subtract)
-            })
-            results = nextResults
-            minimum = nextMinimum
+        if A.count == 1 {
+            return A[0]
         }
         
-        return minimum
+        var leftSum = 0
+        var rightSum = 0
+        
+        var left = [Int]()
+        var right = [Int]()
+        
+        A.forEach { (a) in
+            let weight = abs(a)
+            if leftSum < rightSum {
+                leftSum += weight
+                left.append(weight)
+            } else {
+                rightSum += weight
+                right.append(weight)
+            }
+        }
+        
+        var absDifference = abs(leftSum - rightSum)
+        if absDifference <= 1 {
+            return absDifference
+        }
+        
+        let leftWeights = weightsToMove(weights: left)
+        let rightWeights = weightsToMove(weights: right)
+        
+        let difference = leftSum - rightSum
+        for i in 0..<leftWeights.count {
+            for j in 0..<rightWeights.count {
+                let tempDifference = abs(difference - leftWeights[i] * 2 + rightWeights[j] * 2)
+                absDifference = min(absDifference, tempDifference)
+            }
+        }
+        
+        return absDifference
     }
- 
+    
+    func weightsToMove(weights: [Int]) -> [Int] {
+        let maxWeight = 100 * 2
+        
+        var results = Set<Int>()
+        
+        results.insert(0)
+        
+        for i in 0..<weights.count {
+            let weight = weights[i]
+            var nextResults = results
+            results.forEach({ (sum) in
+                let nextSum = sum + weight
+                if nextSum <= maxWeight {
+                    nextResults.insert(nextSum)
+                }
+            })
+            results = nextResults
+        }
+        return Array(results)
+    }
+    
 }
+
