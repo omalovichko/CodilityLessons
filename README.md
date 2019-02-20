@@ -1,5 +1,5 @@
 # Codility Lessons [![Build Status](https://travis-ci.org/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.org/omalovichko/CodilityLessons)
-Codility lessons solutions solved in Swift 4
+Codility lessons solutions solved in Swift 4.2
 
 Correctness: 💯🔥%
 
