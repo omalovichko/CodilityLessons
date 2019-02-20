@@ -75,6 +75,7 @@ __Lesson 16 - Greedy algorithms__
 
 __Lesson 17 - Dynamic programming__
 * NumberSolitaire: In a given array, find the subset of maximal sum in which the distance between consecutive elements is at most 6.
+* MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
 __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
@@ -135,9 +136,6 @@ __Lesson 15 - Caterpillar method__
 * CountTriangles: Count the number of triangles that can be built from a given set of edges.
 * CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
 * MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
-
-__Lesson 17 - Dynamic programming__
-* MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
 * HilbertMaze: Find the shortest path between two fields in a Hilbert maze.
