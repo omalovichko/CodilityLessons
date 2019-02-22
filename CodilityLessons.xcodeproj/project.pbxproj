@@ -178,58 +178,234 @@
 		FA1F2A121E953B44002437F3 /* CodilityLessonsTests */ = {
 			isa = PBXGroup;
 			children = (
+				FA3A3DA62220090C0064204D /* Lessons in progress */,
+				FA3A3DA4222008CB0064204D /* Lesson 1 Iterations */,
+				FA3A3DA5222008DE0064204D /* Lesson 2 Arrays */,
+				FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */,
+				FA3A3DA8222009330064204D /* Lesson 4 Counting Elements */,
+				FA3A3DA9222009440064204D /* Lesson 5 Prefix Sums */,
+				FA3A3DAA222009580064204D /* Lesson 6 Sorting */,
+				FA3A3DAB2220096A0064204D /* Lesson 7 Stacks and Queues */,
+				FA3A3DAC222009820064204D /* Lesson 8 Leader */,
+				FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */,
+				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
+				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
+			);
+			path = CodilityLessonsTests;
+			sourceTree = "<group>";
+		};
+		FA3A3DA4222008CB0064204D /* Lesson 1 Iterations */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A191E953C66002437F3 /* Lesson1_Iterations.swift */,
+			);
+			name = "Lesson 1 Iterations";
+			sourceTree = "<group>";
+		};
+		FA3A3DA5222008DE0064204D /* Lesson 2 Arrays */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A1A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift */,
 				FA1F2A1B1E953C66002437F3 /* Lesson2_CyclicRotation.swift */,
+			);
+			name = "Lesson 2 Arrays";
+			sourceTree = "<group>";
+		};
+		FA3A3DA62220090C0064204D /* Lessons in progress */ = {
+			isa = PBXGroup;
+			children = (
+				FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */,
+				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
+				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
+				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
+				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
+				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
+				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
+				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
+				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
+				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
+			);
+			name = "Lessons in progress";
+			sourceTree = "<group>";
+		};
+		FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A1C1E953C66002437F3 /* Lesson3_FrogJmp.swift */,
 				FA1F2A1D1E953C66002437F3 /* Lesson3_PermMissingElem.swift */,
 				FA1F2A1E1E953C66002437F3 /* Lesson3_TapeEquilibrium.swift */,
+			);
+			name = "Lesson 3 Time Complexity";
+			sourceTree = "<group>";
+		};
+		FA3A3DA8222009330064204D /* Lesson 4 Counting Elements */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A201E953C66002437F3 /* Lesson4_PermCheck.swift */,
 				FA1F2A211E953C66002437F3 /* Lesson4_FrogRiverOne.swift */,
 				FA1F2A1F1E953C66002437F3 /* Lesson4_MissingInteger.swift */,
 				FA1F2A221E953C66002437F3 /* Lesson4_MaxCounters.swift */,
+			);
+			name = "Lesson 4 Counting Elements";
+			sourceTree = "<group>";
+		};
+		FA3A3DA9222009440064204D /* Lesson 5 Prefix Sums */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A241E953C66002437F3 /* Lesson5_PassingCars.swift */,
 				FA1F2A261E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift */,
 				FA1F2A251E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift */,
 				FA1F2A231E953C66002437F3 /* Lesson5_CountDiv.swift */,
+			);
+			name = "Lesson 5 Prefix Sums";
+			sourceTree = "<group>";
+		};
+		FA3A3DAA222009580064204D /* Lesson 6 Sorting */ = {
+			isa = PBXGroup;
+			children = (
 				FA1F2A271E953C66002437F3 /* Lesson6_Distinct.swift */,
 				FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */,
 				FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */,
 				FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */,
+			);
+			name = "Lesson 6 Sorting";
+			sourceTree = "<group>";
+		};
+		FA3A3DAB2220096A0064204D /* Lesson 7 Stacks and Queues */ = {
+			isa = PBXGroup;
+			children = (
 				FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */,
 				FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */,
 				FA6A4DB11E9E3FF900C9BA31 /* Lesson7_Nesting.swift */,
 				FA6A4DB31E9E400D00C9BA31 /* Lesson7_StoneWall.swift */,
+			);
+			name = "Lesson 7 Stacks and Queues";
+			sourceTree = "<group>";
+		};
+		FA3A3DAC222009820064204D /* Lesson 8 Leader */ = {
+			isa = PBXGroup;
+			children = (
 				FA6A4DB51E9E65F800C9BA31 /* Lesson8_EquiLeader.swift */,
 				FA6A4DB71E9E660000C9BA31 /* Lesson8_Dominator.swift */,
+			);
+			name = "Lesson 8 Leader";
+			sourceTree = "<group>";
+		};
+		FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */ = {
+			isa = PBXGroup;
+			children = (
 				FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */,
 				FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */,
 				FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */,
+			);
+			name = "Lesson 9 Maximum slice problem";
+			sourceTree = "<group>";
+		};
+		FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */ = {
+			isa = PBXGroup;
+			children = (
 				FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */,
 				FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */,
 				FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */,
+			);
+			name = "Lesson 10 Prime and composite numbers";
+			sourceTree = "<group>";
+		};
+		FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lesson 11 Sieve of Eratosthenes";
+			sourceTree = "<group>";
+		};
+		FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */ = {
+			isa = PBXGroup;
+			children = (
 				FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */,
+			);
+			name = "Lesson 12 Euclidean algorithm";
+			sourceTree = "<group>";
+		};
+		FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lesson 13 Fibonacci numbers";
+			sourceTree = "<group>";
+		};
+		FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lesson 14 Binary search algorithm";
+			sourceTree = "<group>";
+		};
+		FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */ = {
+			isa = PBXGroup;
+			children = (
 				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
 				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
+			);
+			name = "Lesson 15 Caterpillar method";
+			sourceTree = "<group>";
+		};
+		FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */ = {
+			isa = PBXGroup;
+			children = (
 				FA9037C91EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift */,
 				FA1C02171EADF34F00823EC4 /* Lesson16_TieRopes.swift */,
+			);
+			name = "Lesson 16 Greedy algorithms";
+			sourceTree = "<group>";
+		};
+		FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */ = {
+			isa = PBXGroup;
+			children = (
 				FA8EF8851EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift */,
 				FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */,
+			);
+			name = "Lesson 17 Dynamic programming";
+			sourceTree = "<group>";
+		};
+		FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */ = {
+			isa = PBXGroup;
+			children = (
 				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 				FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */,
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
+			);
+			name = "Lesson 90 Tasks from Indeed Prime 2015 challenge";
+			sourceTree = "<group>";
+		};
+		FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */ = {
+			isa = PBXGroup;
+			children = (
 				FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */,
 				FA8EF88B1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift */,
+			);
+			name = "Lesson 91 Tasks from Indeed Prime 2016 challenge";
+			sourceTree = "<group>";
+		};
+		FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */ = {
+			isa = PBXGroup;
+			children = (
 				FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */,
 				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
+			);
+			name = "Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge";
+			sourceTree = "<group>";
+		};
+		FAE55B77221DD2810058DB8C /* Lesson 99 Future training */ = {
+			isa = PBXGroup;
+			children = (
 				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
 				FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */,
 				FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */,
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
 			);
-			path = CodilityLessonsTests;
+			name = "Lesson 99 Future training";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
