@@ -178,7 +178,6 @@
 		FA1F2A121E953B44002437F3 /* CodilityLessonsTests */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A3DA62220090C0064204D /* Lessons in progress */,
 				FA3A3DA4222008CB0064204D /* Lesson 1 Iterations */,
 				FA3A3DA5222008DE0064204D /* Lesson 2 Arrays */,
 				FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */,
@@ -190,6 +189,7 @@
 				FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
+				FA3A3DA62220090C0064204D /* Lessons in progress */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
 			);
 			path = CodilityLessonsTests;

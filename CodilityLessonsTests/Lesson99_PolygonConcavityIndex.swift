@@ -84,19 +84,19 @@ import XCTest
 class Lesson99_PolygonConcavityIndex: XCTestCase {
     
     func test() {
-        func point(_ x: Int = 0, _ y: Int = 0) -> Point2D {
-            var point = Point2D()
-            point.x = x
-            point.y = y
-            return point
-        }
-        var points = [Point2D]()
-        
-        points = [point(-1, 3), point(1, 2), point(3, 1), point(0, -1), point(-2, 1)]
-        XCTAssertEqual(solution(&points), -1)
-        
-        points = [point(-1, 3), point(1, 2), point(1, 1), point(3, 1), point(0, -1), point(-2, 1), point(-1, 2)]
-        XCTAssertTrue(solution(&points) == 2 || solution(&points) == 6 )
+//        func point(_ x: Int = 0, _ y: Int = 0) -> Point2D {
+//            var point = Point2D()
+//            point.x = x
+//            point.y = y
+//            return point
+//        }
+//        var points = [Point2D]()
+//
+//        points = [point(-1, 3), point(1, 2), point(3, 1), point(0, -1), point(-2, 1)]
+//        XCTAssertEqual(solution(&points), -1)
+//
+//        points = [point(-1, 3), point(1, 2), point(1, 1), point(3, 1), point(0, -1), point(-2, 1), point(-1, 2)]
+//        XCTAssertTrue(solution(&points) == 2 || solution(&points) == 6 )
     }
     
     public func solution(_ A : inout [Point2D]) -> Int {
