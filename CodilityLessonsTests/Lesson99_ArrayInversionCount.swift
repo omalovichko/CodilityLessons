@@ -74,34 +74,45 @@ class Lesson99_ArrayInversionCount: XCTestCase {
     
     func testAVLTree() {
         // Left Right case
-        let lr = Node(43).insert(18).node.insert(22).node
-        XCTAssertEqual(lr.height, 2)
-        XCTAssertEqual(lr.key, 22)
-        XCTAssertEqual(lr.left?.key, 18)
-        XCTAssertEqual(lr.right?.key, 43)
-        
+        let lr = AVLTree(43)
+        lr.insert(18)
+        lr.insert(22)
+        XCTAssertEqual(lr.root.height, 2)
+        XCTAssertEqual(lr.root.key, 22)
+        XCTAssertEqual(lr.root.left?.key, 18)
+        XCTAssertEqual(lr.root.right?.key, 43)
+
         // Right Left case
-        let rl = Node(3).insert(5).node.insert(4).node
-        XCTAssertEqual(rl.height, 2)
-        XCTAssertEqual(rl.key, 4)
-        XCTAssertEqual(rl.left?.key, 3)
-        XCTAssertEqual(rl.right?.key, 5)
-        
+        let rl = AVLTree(3)
+        rl.insert(5)
+        rl.insert(4)
+        XCTAssertEqual(rl.root.height, 2)
+        XCTAssertEqual(rl.root.key, 4)
+        XCTAssertEqual(rl.root.left?.key, 3)
+        XCTAssertEqual(rl.root.right?.key, 5)
+
         // Right Right case
-        let rr = Node(3).insert(4).node.insert(5).node
-        XCTAssertEqual(rr.height, 2)
-        XCTAssertEqual(rr.key, 4)
-        XCTAssertEqual(rr.left?.key, 3)
-        XCTAssertEqual(rr.right?.key, 5)
-        
+        let rr = AVLTree(3)
+        rr.insert(4)
+        rr.insert(5)
+        XCTAssertEqual(rr.root.height, 2)
+        XCTAssertEqual(rr.root.key, 4)
+        XCTAssertEqual(rr.root.left?.key, 3)
+        XCTAssertEqual(rr.root.right?.key, 5)
+
         // Left Left case
-        let ll = Node(22).insert(18).node.insert(43).node.insert(9).node.insert(21).node.insert(6).node
-        XCTAssertEqual(ll.height, 3)
-        XCTAssertEqual(ll.key, 18)
-        XCTAssertEqual(ll.left?.key, 9)
-        XCTAssertEqual(ll.left?.left?.key, 6)
-        XCTAssertEqual(ll.right?.left?.key, 21)
-        XCTAssertEqual(ll.right?.right?.key, 43)
+        let ll = AVLTree(22)
+        ll.insert(18)
+        ll.insert(43)
+        ll.insert(9)
+        ll.insert(21)
+        ll.insert(6)
+        XCTAssertEqual(ll.root.height, 3)
+        XCTAssertEqual(ll.root.key, 18)
+        XCTAssertEqual(ll.root.left?.key, 9)
+        XCTAssertEqual(ll.root.left?.left?.key, 6)
+        XCTAssertEqual(ll.root.right?.left?.key, 21)
+        XCTAssertEqual(ll.root.right?.right?.key, 43)
     }
     
     func testMeasure1() {
@@ -126,7 +137,7 @@ class Lesson99_ArrayInversionCount: XCTestCase {
     }
     
     func testMeasure3() {
-        // Time: 0.491 sec
+        // Time: 0.292 sec
         var arr = [Int]()
         let count = 100_000
         for i in 0..<count {
@@ -143,142 +154,161 @@ class Lesson99_ArrayInversionCount: XCTestCase {
             return 0
         }
         
-        var head = Node(A[0])
-        var numberOfInversions = 0
+        let tree = AVLTree(A[0])
         
         for i in 1..<count {
-            let a = A[i]
-            
-            let result = head.insert(a)
-            numberOfInversions += result.numberOfInversions
-            head = result.node
-            
-            if numberOfInversions > 1_000_000_000 {
+            tree.insert(A[i])
+            if tree.numberOfInversions > 1_000_000_000 {
                 return -1
             }
         }
         
-        return numberOfInversions
+        return tree.numberOfInversions
     }
 
-    // AVL Tree
+    class AVLTree {
+        
+        var root: Node
+        var numberOfInversions = 0
+        
+        init(_ newKey: Int) {
+            root = Node(newKey)
+        }
+        
+        func insert(_ newKey: Int) {
+            root = insert(root, newKey)
+        }
+        
+        private func insert(_ node: Node, _ newKey: Int) -> Node {
+            guard node.key != newKey else {
+                node.count += 1
+                numberOfInversions += node.rightCount
+                return node
+            }
+            
+            if node.key > newKey {
+                node.leftCount += 1
+                if let l = node.left {
+                    node.left = insert(l, newKey)
+                    
+                    let rightHeight = node.right?.height ?? 0
+                    node.height = 1 + max(l.height, rightHeight)
+                    node.balance = l.height - rightHeight
+                    numberOfInversions += node.count + node.rightCount
+                    
+                    return balance(node)
+                } else {
+                    node.left = Node(newKey)
+                    
+                    let rightHeight = node.right?.height ?? 0
+                    node.height = 1 + max(1, rightHeight)
+                    node.balance = 1 - rightHeight
+                    numberOfInversions += node.count + node.rightCount
+                    
+                    return node
+                }
+                
+            } else {
+                node.rightCount += 1
+                if let r = node.right {
+                    node.right = insert(r, newKey)
+                    
+                    let leftHeight = node.left?.height ?? 0
+                    node.height = 1 + max(leftHeight, r.height)
+                    node.balance = leftHeight - r.height
+        
+                    return balance(node)
+                } else {
+                    node.right = Node(newKey)
+                    
+                    let leftHeight = node.left?.height ?? 0
+                    node.height = 1 + max(leftHeight, 1)
+                    node.balance = leftHeight - 1
+                    
+                    return node
+                }
+            }
+        }
+        
+        func rotateRight(_ node: Node) -> Node {
+            let newTop = node.left!
+            
+            node.left = newTop.right
+            node.leftCount = newTop.rightCount
+            
+            newTop.right = node
+            newTop.rightCount = node.count + node.leftCount + node.rightCount
+            
+            updateNodeHeightAndBalance(node)
+            updateNodeHeightAndBalance(newTop)
+            
+            return newTop
+        }
+        
+        func rotateLeft(_ node: Node) -> Node {
+            let newTop = node.right!
+            
+            node.right = newTop.left
+            node.rightCount = newTop.leftCount
+            
+            newTop.left = node
+            newTop.leftCount = node.count + node.leftCount + node.rightCount
+            
+            updateNodeHeightAndBalance(node)
+            updateNodeHeightAndBalance(newTop)
+            
+            return newTop
+        }
+        
+        func updateNodeHeightAndBalance(_ node: Node) {
+            let leftHeight = node.left?.height ?? 0
+            let rightHeight = node.right?.height ?? 0
+            
+            node.height = 1 + max(leftHeight, rightHeight)
+            node.balance = leftHeight - rightHeight
+        }
+        
+        func balance(_ node: Node) -> Node {
+            
+            if let leftBalance = node.left?.balance, node.balance > 1 {
+                if leftBalance < 0 {
+                    // Left Right Case"
+                    node.left = rotateLeft(node.left!)
+                    return rotateRight(node)
+                } else {
+                    // Left Left Case"
+                    return rotateRight(node)
+                }
+            } else if let rightBalance = node.right?.balance, node.balance < -1 {
+                if rightBalance < 0 {
+                    // Right Right Case"
+                    return rotateLeft(node)
+                } else {
+                    // Right Left Case
+                    node.right = rotateRight(node.right!)
+                    return rotateLeft(node)
+                }
+            }
+            
+            return node
+        }
+    }
+    
     class Node {
         var key: Int
         var count = 1
-        
         var height = 1
-        var balance: Int {
-            return (left?.height ?? 0) - (right?.height ?? 0)
-        }
+        var balance = 0
         
-        var left : Node?
+        var left: Node?
         var leftCount = 0
         
-        var right : Node?
+        var right: Node?
         var rightCount = 0
         
         init(_ key: Int) {
             self.key = key
         }
-        
-        func insert(_ newKey: Int) -> (numberOfInversions: Int, node: Node) {
-            
-            var numberOfInversions = 0
-            
-            if self.key == newKey {
-                count += 1
-                numberOfInversions += rightCount
-            } else if key > newKey {
-                leftCount += 1
-                if let l = left {
-                    let result = l.insert(newKey)
-                    left = result.node
-                    
-                    height = 1 + max(l.height, right?.height ?? 0)
-                    numberOfInversions += count + rightCount + result.numberOfInversions
-                } else {
-                    left = Node(newKey)
-                    
-                    height = 1 + max(1, right?.height ?? 0)
-                    numberOfInversions += count + rightCount
-                }
-                
-            } else {
-                rightCount += 1
-                if let r = right {
-                    let result = r.insert(newKey)
-                    right = result.node
-                    
-                    height = 1 + max(left?.height ?? 0, r.height)
-                    numberOfInversions += result.numberOfInversions
-                } else {
-                    right = Node(newKey)
-                    
-                    height = 1 + max(left?.height ?? 0, 1)
-                }
-            }
-            
-            return (numberOfInversions, balanced())
-        }
-        
-        func rotateRight() -> Node {
-            let newTop = left!
-            
-            left = newTop.right
-            leftCount = newTop.rightCount
-            
-            newTop.right = self
-            newTop.rightCount = count + leftCount + rightCount
-            
-            // Update heights
-            height = 1 + max(left?.height ?? 0, right?.height ?? 0)
-            newTop.height = 1 + max(newTop.left?.height ?? 0, newTop.right?.height ?? 0)
-
-            return newTop
-        }
-        
-        func rotateLeft() -> Node {
-            let newTop = right!
-            
-            right = newTop.left
-            rightCount = newTop.leftCount
-            
-            newTop.left = self
-            newTop.leftCount = count + leftCount + rightCount
-            
-            // Update heights
-            height = 1 + max(left?.height ?? 0, right?.height ?? 0)
-            newTop.height = 1 + max(newTop.left?.height ?? 0, newTop.right?.height ?? 0)
-            
-            return newTop
-        }
-        
-        func balanced() -> Node {
-            
-            let nodeBalance = balance
-            
-            if let leftBalance = left?.balance, nodeBalance > 1 {
-                if leftBalance < 0 {
-                    // Left Right Case
-                    left = left?.rotateLeft()
-                    return rotateRight()
-                } else {
-                    // Left Left Case
-                    return rotateRight()
-                }
-            } else if let rightBalance = right?.balance, nodeBalance < -1 {
-                if rightBalance < 0 {
-                    // Right Right Case
-                    return rotateLeft()
-                } else {
-                    // Right Left Case
-                    right = right?.rotateRight()
-                    return rotateLeft()
-                }
-            }
-            
-            return self
-        }
-        
     }
+    
 }
