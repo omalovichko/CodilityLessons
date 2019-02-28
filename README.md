@@ -110,5 +110,5 @@ __Lesson 99 - Future training__
 * SqlSum: Calculate sum of elements.
 * StrSymmetryPoint: Find a symmetry point of a string, if any.
 * TreeHeight: Compute the height of a binary tree.
-* ~~ArrayInversionCount: Compute number of inversion in an array.~~
-* ~~PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.~~
+* ArrayInversionCount: Compute number of inversion in an array.
+* PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.

@@ -84,22 +84,109 @@ import XCTest
 class Lesson99_PolygonConcavityIndex: XCTestCase {
     
     func test() {
-//        func point(_ x: Int = 0, _ y: Int = 0) -> Point2D {
-//            var point = Point2D()
-//            point.x = x
-//            point.y = y
-//            return point
-//        }
-//        var points = [Point2D]()
-//
-//        points = [point(-1, 3), point(1, 2), point(3, 1), point(0, -1), point(-2, 1)]
-//        XCTAssertEqual(solution(&points), -1)
-//
-//        points = [point(-1, 3), point(1, 2), point(1, 1), point(3, 1), point(0, -1), point(-2, 1), point(-1, 2)]
-//        XCTAssertTrue(solution(&points) == 2 || solution(&points) == 6 )
+        let point = { (x: Int, y: Int) -> Point2D in
+            var point = Point2D()
+            point.x = x
+            point.y = y
+            return point
+        }
+        var points = [Point2D]()
+        
+        points = [point(-2, -1), point(-1, 1), point(0, 0), point(1, 1), point(2, -1), point(0, -1)]
+        XCTAssertEqual(solution(&points), 2)
+        
+        points = [point(-2, 3), point(0, 1), point(-2, 2), point(-4, 1)]
+        XCTAssertEqual(solution(&points), 2)
+        
+        points = [point(-1, 3), point(1, 2), point(3, 1), point(0, -1), point(-2, 1)]
+        XCTAssertEqual(solution(&points), -1)
+
+        points = [point(-1, 3), point(1, 2), point(1, 1), point(3, 1), point(0, -1), point(-2, 1), point(-1, 2)]
+        XCTAssertTrue(solution(&points) == 2 || solution(&points) == 6 )
     }
     
+    func testMeasure() {
+        let point = { (x: Int, y: Int) -> Point2D in
+            var point = Point2D()
+            point.x = x
+            point.y = y
+            return point
+        }
+        
+        var points = [Point2D]()
+        points = [point(0, -30), point(0, -29), point(0, -28), point(0, -27), point(0, -26), point(0, -25), point(0, -24), point(0, -23), point(0, -22), point(0, -21), point(0, -20), point(0, -19), point(0, -18), point(0, -17), point(0, -16), point(0, -15), point(0, -14), point(0, -13), point(0, -12), point(0, -11), point(0, -10), point(0, -9), point(0, -8), point(0, -7), point(0, -6), point(0, -5), point(0, -4), point(0, -3), point(0, -2), point(0, -1), point(0, 0), point(0, 1), point(0, 2), point(0, 3), point(0, 4), point(0, 5), point(0, 6), point(0, 7), point(0, 8), point(0, 9), point(0, 10), point(0, 11), point(0, 12), point(0, 13), point(0, 14), point(0, 15), point(0, 16), point(0, 17), point(0, 18), point(0, 19), point(0, 20), point(0, 21), point(0, 22), point(0, 23), point(0, 24), point(0, 25), point(0, 26), point(0, 27), point(0, 28), point(0, 29), point(1, 19)]
+        measure {
+            for _ in 0..<1000 {
+                XCTAssertEqual(solution(&points), -1)
+            }
+        }
+    }
+    
+    // Graham scan method
     public func solution(_ A : inout [Point2D]) -> Int {
+        struct Point  {
+            let point: Point2D
+            let index: Int
+        }
+        
+        var points = [Point]()
+        var lowestPoint = Point(point: A[0], index: 0)
+        for i in 1..<A.count {
+            let point = A[i]
+            if point.y < lowestPoint.point.y  {
+                points.append(lowestPoint)
+                lowestPoint = Point(point: point, index: i)
+            } else if point.y == lowestPoint.point.y && point.x < lowestPoint.point.x {
+                points.append(lowestPoint)
+                lowestPoint = Point(point: point, index: i)
+            } else {
+                points.append(Point(point: point, index: i))
+            }
+        }
+        
+        let radians = { (a: Point, b: Point) -> Double in
+            return atan2(Double(b.point.y - a.point.y), Double(b.point.x - a.point.x))
+        }
+        
+        let distance = { (a: Point, b: Point) -> Double in
+            return sqrt(pow(Double(b.point.x - a.point.x), 2) + pow(Double(b.point.y - a.point.y), 2))
+        }
+        
+        // colinear = 0
+        // clockwise > 0
+        // counterclockwisee < 0
+        let orientation = { (a: Point, b: Point, c: Point) -> Int in
+            return (b.point.y - a.point.y) * (c.point.x - b.point.x) - (b.point.x - a.point.x) * (c.point.y - b.point.y)
+        }
+        
+        let sortedPoints = points.sorted { (a, b) -> Bool in
+            let aRadians = radians(lowestPoint, a)
+            let bRadians = radians(lowestPoint, b)
+            if aRadians == bRadians {
+                let aDistance = distance(lowestPoint, a)
+                let bDistance = distance(lowestPoint, b)
+                return aDistance < bDistance
+            } else {
+                return aRadians < bRadians
+            }
+        }
+        
+        var stack = sortedPoints
+        stack.insert(lowestPoint, at: 0)
+        stack.append(lowestPoint)
+        
+        let maxRadians = radians(lowestPoint, sortedPoints.last!)
+        
+        while stack.count != 3 {
+            let a = stack[0]
+            let b = stack[1]
+            let c = stack[2]
+            let orientation = orientation(a, b, c)
+            if orientation > 0 && maxRadians != radians(lowestPoint, b) {
+                return b.index
+            }
+            stack.removeFirst()
+        }
         return -1
     }
 

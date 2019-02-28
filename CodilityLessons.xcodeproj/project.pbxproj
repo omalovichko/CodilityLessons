@@ -189,6 +189,7 @@
 				FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
+				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
 				FA3A3DA62220090C0064204D /* Lessons in progress */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
 			);
@@ -224,7 +225,6 @@
 				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
 				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
 				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
-				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
 			);
 			name = "Lessons in progress";
 			sourceTree = "<group>";
