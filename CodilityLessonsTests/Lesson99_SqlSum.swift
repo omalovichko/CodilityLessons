@@ -9,7 +9,7 @@
 import XCTest
 
 /*
- [100%] SqlSum
+ SqlSum
  Calculate sum of elements.
  
  
