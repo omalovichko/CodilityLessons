@@ -65,7 +65,7 @@ __Lesson 11 - Sieve of Eratosthenes__
 
 __Lesson 12 - Euclidean algorithm__
 * ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
-* ~~CommonPrimeDivisors: Check whether two numbers have the same prime divisors.~~
+* CommonPrimeDivisors: Check whether two numbers have the same prime divisors.
 
 __Lesson 13 - Fibonacci numbers__
 * ~~FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.~~

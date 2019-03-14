@@ -50,14 +50,12 @@ class Lesson12_ChocolatesByNumbers: XCTestCase {
     }
     
     func testPerformance() {
-        // Time: 0.387 sec
         measure {
             XCTAssertEqual(solution(415633212, 234332), 103908303)
         }
     }
     
     public func solution(_ N : Int, _ M : Int) -> Int {
-        
 //        Euclidean algorithm by division
         func greatestCommonDivisor(a: Int, b: Int) -> Int {
             if (a % b) == 0 {
@@ -65,6 +63,7 @@ class Lesson12_ChocolatesByNumbers: XCTestCase {
             }
             return greatestCommonDivisor(a: b, b: a % b)
         }
+        
         let divisor = greatestCommonDivisor(a: N, b: M)
         return N / divisor
     }

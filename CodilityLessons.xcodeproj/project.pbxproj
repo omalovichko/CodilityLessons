@@ -13,6 +13,7 @@
 		FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */; };
 		FA1196701EA0030E00BABC91 /* Lesson9_MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */; };
 		FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */; };
+		FA12631D2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */; };
 		FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */; };
 		FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */; };
 		FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */; };
@@ -78,6 +79,7 @@
 		FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_ArrayInversionCount.swift; sourceTree = "<group>"; };
 		FA11966F1EA0030E00BABC91 /* Lesson9_MaxProfit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxProfit.swift; sourceTree = "<group>"; };
 		FA1196711EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxDoubleSliceSum.swift; sourceTree = "<group>"; };
+		FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson12_CommonPrimeDivisors.swift; sourceTree = "<group>"; };
 		FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson90_SlalomSkiing.swift; sourceTree = "<group>"; };
 		FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_CountFactors.swift; sourceTree = "<group>"; };
 		FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_MinPerimeterRectangle.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */,
+				FA12631C2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift */,
 			);
 			name = "Lesson 12 Euclidean algorithm";
 			sourceTree = "<group>";
@@ -536,6 +539,7 @@
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
 				FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */,
 				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
+				FA12631D2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift in Sources */,
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
 				FA7C20921EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift in Sources */,
 				FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */,
