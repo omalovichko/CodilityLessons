@@ -57,14 +57,14 @@ class Lesson12_ChocolatesByNumbers: XCTestCase {
     
     public func solution(_ N : Int, _ M : Int) -> Int {
 //        Euclidean algorithm by division
-        func greatestCommonDivisor(a: Int, b: Int) -> Int {
+        func greatestCommonDivisor(_ a: Int, _ b: Int) -> Int {
             if (a % b) == 0 {
                 return b
             }
-            return greatestCommonDivisor(a: b, b: a % b)
+            return greatestCommonDivisor(b, a % b)
         }
         
-        let divisor = greatestCommonDivisor(a: N, b: M)
+        let divisor = greatestCommonDivisor(N, M)
         return N / divisor
     }
 
