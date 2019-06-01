@@ -38,6 +38,7 @@
 		FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */; };
 		FA1F2A3A1E95413B002437F3 /* Lesson6_Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */; };
 		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
+		FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */; };
 		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
 		FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */; };
 		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */; };
@@ -107,6 +108,7 @@
 		FA1F2A281E953C66002437F3 /* Lesson6_MaxProductOfThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_MaxProductOfThree.swift; sourceTree = "<group>"; };
 		FA1F2A391E95413B002437F3 /* Lesson6_Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_Triangle.swift; sourceTree = "<group>"; };
 		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
+		FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10_Flags.swift; sourceTree = "<group>"; };
 		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
 		FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson17_MinAbsSum.swift; sourceTree = "<group>"; };
 		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Brackets.swift; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 				FA172A611EB242F000585F28 /* Lesson10_CountFactors.swift */,
 				FA172A631EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift */,
 				FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */,
+				FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */,
 			);
 			name = "Lesson 10 Prime and composite numbers";
 			sourceTree = "<group>";
@@ -455,7 +458,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1020;
 				TargetAttributes = {
 					FA1F2A021E953B0D002437F3 = {
 						CreatedOnToolsVersion = 8.3;
@@ -470,10 +473,11 @@
 			};
 			buildConfigurationList = FA1F29FE1E953B0D002437F3 /* Build configuration list for PBXProject "CodilityLessons" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = FA1F29FA1E953B0D002437F3;
 			productRefGroup = FA1F2A041E953B0D002437F3 /* Products */;
@@ -514,6 +518,7 @@
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
 				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
+				FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */,
 				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
 				FA1F2A2A1E953C66002437F3 /* Lesson2_OddOccurrencesInArray.swift in Sources */,
@@ -569,6 +574,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -627,6 +633,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";

@@ -43,6 +43,12 @@ class Lesson17_MinAbsSum: XCTestCase {
     func test() {
         var a = [Int]()
         
+        a = [5, 4, 3, 3, 3]
+        XCTAssertEqual(solution(&a), 0)
+        
+        a = [86, 12, 67, 25, 48, 31, 30, 96, 26, 37, 21, 47]
+        XCTAssertEqual(solution(&a), 0)
+        
         a = [1, 5, 2, -2]
         XCTAssertEqual(solution(&a), 0)
         
