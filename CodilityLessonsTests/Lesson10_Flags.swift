@@ -87,20 +87,20 @@ class Lesson10_Flags: XCTestCase {
         XCTAssertEqual(solution(&array), 3)
     }
     
-    
-    //Time: 3.478 sec
     func testPerformance() {
-        var a = [Int]()
-        for _ in 0..<10_000 {
-            a.append(Int(arc4random_uniform(1_000_000_000)))
+        var array = [Int](repeating: 0, count: 1000)
+        for peakIndex in [12, 17, 24, 41, 48, 75, 93, 99, 109, 131, 133, 143, 160, 166, 169, 176, 194, 201, 203, 205, 209, 216, 228, 232, 238, 242, 268, 280, 291, 294, 314, 319, 324, 329, 331, 340, 343, 347, 353, 364, 370, 396, 406, 415, 438, 458, 461, 467, 478, 485, 488, 503, 530, 534, 548, 561, 590, 611, 619, 632, 651, 658, 665, 669, 698, 713, 717, 726, 754, 764, 771, 773, 776, 779, 783, 792, 810, 832, 836, 853, 859, 866, 868, 870, 879, 881, 887, 891, 894, 910, 917, 923, 931, 938, 944, 948, 973, 977, 982, 984] {
+            array[peakIndex] = 1
         }
         measure {
-            _ = self.solution(&a)
+            XCTAssertEqual(solution(&array), 28)
         }
     }
     
     public func solution(_ A : inout [Int]) -> Int {
-        var peakIndexes = [Int]()
+        
+        // Find peaks
+        var peakPositions = [Int]()
         
         var left: Int?
         var possiblePeak = false
@@ -114,7 +114,7 @@ class Lesson10_Flags: XCTestCase {
             if leftUnwrapped < value {
                 possiblePeak = true
             } else if leftUnwrapped > value && possiblePeak {
-                peakIndexes.append(i - 1)
+                peakPositions.append(i - 1)
                 possiblePeak = false
             } else {
                 possiblePeak = false
@@ -122,61 +122,65 @@ class Lesson10_Flags: XCTestCase {
             left = value
         }
         
-        guard peakIndexes.count != 0 else {
-            return 0
+        // Calculate maximum number of flags
+        if peakPositions.count <= 2 {
+            return peakPositions.count
         }
         
-        guard peakIndexes.count != 1 else {
-            return 1
-        }
+        // key: Distance limit between flags
+        typealias FlagsType = [Int: (flagsCount: Int, currentPosition: Int)]
         
-        // key: distance limit between flags
-        // value: number of flags
-        var flags = [Int: Int]()
-        var previousIndex = peakIndexes[0]
+        var flags = FlagsType()
+        var newEntries = FlagsType()
         
-        var result = -1
+        let firstPeakPosition = peakPositions[0]
         
-        for i in 1..<peakIndexes.count {
-            let index = peakIndexes[i]
-            let distance = index - previousIndex
+        flags[Int.max] = (1, firstPeakPosition)
+        
+        var maxNumberOfFlags = 0
+        
+        let addFlag: (_ distance: Int, _ flagsCount: Int, _ currentPosition: Int) -> Void = { distance, flagsCount, currentPosition in
             
-            var newFlags = [Int: Int]()
+            let existedCount = newEntries[distance]?.flagsCount ?? 0
+            let z = newEntries[distance]?.currentPosition ?? -1
+
             
-            if flags.isEmpty {
-                newFlags[distance] = 1
-                if distance >= 2 {
-                    result = 1
-                }
+            if flagsCount > existedCount {
+                newEntries[distance] = (flagsCount, currentPosition)
+            } else if flagsCount == existedCount && currentPosition < z {
+                newEntries[distance] = (flagsCount, currentPosition)
             }
+        }
+        
+        for i in 1..<peakPositions.count {
+            let currentPeakPosition = peakPositions[i]
             
             for entry in flags {
-                if distance >= entry.key {
-                    let existedCount = newFlags[entry.key] ?? 0
-                    newFlags[entry.key] = entry.value + 1 + existedCount
+                
+                let distanceBetweenPeaks = currentPeakPosition - entry.value.currentPosition
+                if distanceBetweenPeaks >= entry.key {
+                    
+                    let newCount = entry.value.flagsCount + 1
+                    addFlag(entry.key, newCount, currentPeakPosition)
                 } else {
-                    let existedCount = newFlags[distance] ?? 0
-                    newFlags[distance] = entry.value + 1 + existedCount
+                    
+                    let newCount = entry.value.flagsCount + 1
+                    addFlag(distanceBetweenPeaks, newCount, currentPeakPosition)
                 }
                 
-                let sumDistance = distance + entry.key
-                let existedCount = newFlags[sumDistance] ?? 0
-                newFlags[sumDistance] = 1 + existedCount
-                
-                newFlags[entry.key] = max(entry.value, (newFlags[entry.key] ?? 0))
+                addFlag(entry.key, entry.value.flagsCount, entry.value.currentPosition)
             }
             
-            for entry in newFlags {
-                if entry.key >= entry.value {
-                    result = max(result, entry.value)
-                }
-            }
-            
-            flags = newFlags
-            previousIndex = index
+            flags = newEntries
+            newEntries = FlagsType()
         }
         
-        return result + 1
+        for entry in flags {
+            maxNumberOfFlags = max(maxNumberOfFlags, min(entry.key, entry.value.flagsCount))
+        }
+
+        
+        return maxNumberOfFlags
     }
     
 }
