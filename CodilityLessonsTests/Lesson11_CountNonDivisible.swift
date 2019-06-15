@@ -61,8 +61,72 @@ class Lesson11_CountNonDivisible: XCTestCase {
         XCTAssertEqual(solution(&a), [2, 4, 3, 2, 0])
     }
     
+    func testPerformance() {
+        var array = [Int]()
+        let range = 1...(2 * 50_000)
+        for _ in 1...5000 {
+            array.append(Int.random(in: range))
+        }
+        measure {
+            _ = solution(&array)
+        }
+    }
+    
+    func testAllTheSameValuesPerformance() {
+        var array = [Int](repeating: 20_000, count: 50_000)
+        measure {
+            _ = solution(&array)
+        }
+    }
+    
     public func solution(_ A : inout [Int]) -> [Int] {
-        return []
+        let maxNumber = 2 * 50_000
+        let totalCount = A.count
+        
+        // key: number, value: count
+        var allNumbersDict = [Int: Int]()
+        
+        for i in 0..<totalCount {
+            let number = A[i]
+            if let count = allNumbersDict[number] {
+                allNumbersDict[number] = count + 1
+            } else {
+               allNumbersDict[number] = 1
+            }
+        }
+        
+        // key: number, value: non-divisors count
+        var resultsDict = [Int: Int]()
+        
+        for entry in allNumbersDict {
+            let number = entry.key
+            
+            var k = number * 2
+            while k <= maxNumber {
+                if allNumbersDict[k] != nil {
+                    let duplicates = allNumbersDict[number]!
+                    if let count = resultsDict[k] {
+                        resultsDict[k] = count + duplicates
+                    } else {
+                        resultsDict[k] = duplicates
+                    }
+                }
+                k += number
+            }
+        }
+        
+        var results = [Int]()
+        for i in 0..<totalCount {
+            let number = A[i]
+            let duplicates = allNumbersDict[number]!
+            if let count = resultsDict[number] {
+                results.append(totalCount - count - duplicates)
+            } else {
+                results.append(totalCount - duplicates)
+            }
+        }
+        
+        return results
     }
     
 }

@@ -60,8 +60,8 @@ __Lesson 10 - Prime and composite numbers__
 * Flags: Find the maximum number of flags that can be set on mountain peaks.
 
 __Lesson 11 - Sieve of Eratosthenes__
-* ~~CountSemiprimes: Count the semiprime numbers in the given range [a..b]~~
-* ~~CountNonDivisible: Calculate the number of elements of an array that are not divisors of each element.~~
+* CountSemiprimes: Count the semiprime numbers in the given range [a..b]
+* CountNonDivisible: Calculate the number of elements of an array that are not divisors of each element.
 
 __Lesson 12 - Euclidean algorithm__
 * ChocolatesByNumbers: There are N chocolates in a circle. Count the number of chocolates you will eat.
