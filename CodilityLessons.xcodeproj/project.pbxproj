@@ -40,6 +40,8 @@
 		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
 		FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */; };
 		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
+		FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */; };
+		FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */; };
 		FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */; };
 		FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */; };
 		FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */; };
@@ -110,6 +112,8 @@
 		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
 		FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10_Flags.swift; sourceTree = "<group>"; };
 		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
+		FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountSemiprimes.swift; sourceTree = "<group>"; };
+		FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountNonDivisible.swift; sourceTree = "<group>"; };
 		FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson17_MinAbsSum.swift; sourceTree = "<group>"; };
 		FA6A4DAD1E9D08BE00C9BA31 /* Lesson7_Brackets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Brackets.swift; sourceTree = "<group>"; };
 		FA6A4DAF1E9D56C200C9BA31 /* Lesson7_Fish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson7_Fish.swift; sourceTree = "<group>"; };
@@ -320,6 +324,8 @@
 		FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */ = {
 			isa = PBXGroup;
 			children = (
+				FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */,
+				FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */,
 			);
 			name = "Lesson 11 Sieve of Eratosthenes";
 			sourceTree = "<group>";
@@ -515,9 +521,11 @@
 			files = (
 				FA1F2A2B1E953C66002437F3 /* Lesson2_CyclicRotation.swift in Sources */,
 				FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */,
+				FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */,
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
 				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
+				FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */,
 				FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */,
 				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
