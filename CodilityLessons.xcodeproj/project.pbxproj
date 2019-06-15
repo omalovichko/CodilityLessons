@@ -154,8 +154,8 @@
 		FA1F29FA1E953B0D002437F3 = {
 			isa = PBXGroup;
 			children = (
-				FA9620F41FBEF20000A4B668 /* .travis.yml */,
 				FAC133E01EF15A8100BCEBB9 /* README.md */,
+				FA9620F41FBEF20000A4B668 /* .travis.yml */,
 				FA1F2A051E953B0D002437F3 /* CodilityLessons */,
 				FA1F2A121E953B44002437F3 /* CodilityLessonsTests */,
 				FA1F2A041E953B0D002437F3 /* Products */,
@@ -191,6 +191,7 @@
 				FA3A3DAB2220096A0064204D /* Lesson 7 Stacks and Queues */,
 				FA3A3DAC222009820064204D /* Lesson 8 Leader */,
 				FA3A3DAD222009910064204D /* Lesson 9 Maximum slice problem */,
+				FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */,
 				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
@@ -221,7 +222,6 @@
 		FA3A3DA62220090C0064204D /* Lessons in progress */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */,
 				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
 				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
 				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,

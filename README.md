@@ -57,7 +57,7 @@ __Lesson 10 - Prime and composite numbers__
 * CountFactors: Count factors of given number n.
 * MinPerimeterRectangle: Find the minimal perimeter of any rectangle whose area equals N.
 * Peaks: Divide an array into the maximum number of same-sized blocks, each of which should contain an index P such that A[P - 1] < A[P] > A[P + 1].
-* ~~Flags: Find the maximum number of flags that can be set on mountain peaks.~~
+* Flags: Find the maximum number of flags that can be set on mountain peaks.
 
 __Lesson 11 - Sieve of Eratosthenes__
 * ~~CountSemiprimes: Count the semiprime numbers in the given range [a..b]~~

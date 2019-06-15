@@ -93,7 +93,9 @@ class Lesson10_Flags: XCTestCase {
             array[peakIndex] = 1
         }
         measure {
-            XCTAssertEqual(solution(&array), 28)
+            for _ in 0..<100 {
+                XCTAssertEqual(solution(&array), 28)
+            }
         }
     }
     
@@ -123,64 +125,52 @@ class Lesson10_Flags: XCTestCase {
         }
         
         // Calculate maximum number of flags
-        if peakPositions.count <= 2 {
+        
+        let totalPeaksCount = peakPositions.count
+        
+        if totalPeaksCount <= 2 {
             return peakPositions.count
         }
         
-        // key: Distance limit between flags
-        typealias FlagsType = [Int: (flagsCount: Int, currentPosition: Int)]
+        let firstPeakPosition = peakPositions.first!
+        let lastPeakPosition = peakPositions.last!
+        let totalDistance = lastPeakPosition - firstPeakPosition
+        let maxPossibleNumberOfFlags = min(totalPeaksCount, Int(sqrt(Double(totalDistance))) + 1)
+        let maxReasonableDistance = maxPossibleNumberOfFlags
         
-        var flags = FlagsType()
-        var newEntries = FlagsType()
+        var distanceCandidat = maxReasonableDistance
+        var allowedSkipsCount = totalPeaksCount - maxPossibleNumberOfFlags
+        var skippedPeaksCount = 0
+        var previousFlagPosition = firstPeakPosition
         
-        let firstPeakPosition = peakPositions[0]
-        
-        flags[Int.max] = (1, firstPeakPosition)
-        
-        var maxNumberOfFlags = 0
-        
-        let addFlag: (_ distance: Int, _ flagsCount: Int, _ currentPosition: Int) -> Void = { distance, flagsCount, currentPosition in
-            
-            let existedCount = newEntries[distance]?.flagsCount ?? 0
-            let z = newEntries[distance]?.currentPosition ?? -1
+        for _ in 0..<maxPossibleNumberOfFlags {
 
-            
-            if flagsCount > existedCount {
-                newEntries[distance] = (flagsCount, currentPosition)
-            } else if flagsCount == existedCount && currentPosition < z {
-                newEntries[distance] = (flagsCount, currentPosition)
-            }
-        }
-        
-        for i in 1..<peakPositions.count {
-            let currentPeakPosition = peakPositions[i]
-            
-            for entry in flags {
+            for peakIndex in 1..<totalPeaksCount {
+                let peakPosition = peakPositions[peakIndex]
                 
-                let distanceBetweenPeaks = currentPeakPosition - entry.value.currentPosition
-                if distanceBetweenPeaks >= entry.key {
-                    
-                    let newCount = entry.value.flagsCount + 1
-                    addFlag(entry.key, newCount, currentPeakPosition)
+                let currentDistance = peakPosition - previousFlagPosition
+                
+                if currentDistance >= distanceCandidat {
+                    previousFlagPosition = peakPosition
                 } else {
-                    
-                    let newCount = entry.value.flagsCount + 1
-                    addFlag(distanceBetweenPeaks, newCount, currentPeakPosition)
+                    skippedPeaksCount += 1
+                    if skippedPeaksCount > allowedSkipsCount {
+                        break
+                    }
                 }
-                
-                addFlag(entry.key, entry.value.flagsCount, entry.value.currentPosition)
             }
             
-            flags = newEntries
-            newEntries = FlagsType()
+            if skippedPeaksCount <= allowedSkipsCount {
+                return distanceCandidat
+            }
+            
+            distanceCandidat -= 1
+            allowedSkipsCount = totalPeaksCount - distanceCandidat
+            skippedPeaksCount = 0
+            previousFlagPosition = firstPeakPosition
         }
         
-        for entry in flags {
-            maxNumberOfFlags = max(maxNumberOfFlags, min(entry.key, entry.value.flagsCount))
-        }
-
-        
-        return maxNumberOfFlags
+        return 0
     }
-    
+
 }
