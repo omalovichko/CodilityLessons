@@ -40,6 +40,8 @@
 		FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */; };
 		FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */; };
 		FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */; };
+		FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35586922B579060096503A /* Lesson13_Ladder.swift */; };
+		FA35586C22B5792F0096503A /* Lesson13_FibFrog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */; };
 		FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */; };
 		FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */; };
 		FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */; };
@@ -112,6 +114,8 @@
 		FA1F2A3B1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson6_NumberOfDiscIntersections.swift; sourceTree = "<group>"; };
 		FA2999C7223AC6FE00F30C39 /* Lesson10_Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson10_Flags.swift; sourceTree = "<group>"; };
 		FA2A07E71EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson12_ChocolatesByNumbers.swift; sourceTree = "<group>"; };
+		FA35586922B579060096503A /* Lesson13_Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13_Ladder.swift; sourceTree = "<group>"; };
+		FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson13_FibFrog.swift; sourceTree = "<group>"; };
 		FA3B90CD22B508F700EC941E /* Lesson11_CountSemiprimes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountSemiprimes.swift; sourceTree = "<group>"; };
 		FA3B90CF22B53A3800EC941E /* Lesson11_CountNonDivisible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson11_CountNonDivisible.swift; sourceTree = "<group>"; };
 		FA54888020ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson17_MinAbsSum.swift; sourceTree = "<group>"; };
@@ -342,6 +346,8 @@
 		FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */ = {
 			isa = PBXGroup;
 			children = (
+				FA35586922B579060096503A /* Lesson13_Ladder.swift */,
+				FA35586B22B5792F0096503A /* Lesson13_FibFrog.swift */,
 			);
 			name = "Lesson 13 Fibonacci numbers";
 			sourceTree = "<group>";
@@ -537,6 +543,7 @@
 				FA1F2A321E953C66002437F3 /* Lesson4_MaxCounters.swift in Sources */,
 				FA1F2A361E953C66002437F3 /* Lesson5_GenomicRangeQuery.swift in Sources */,
 				FA1F2A3C1E954154002437F3 /* Lesson6_NumberOfDiscIntersections.swift in Sources */,
+				FA35586C22B5792F0096503A /* Lesson13_FibFrog.swift in Sources */,
 				FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */,
 				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,
 				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
@@ -548,6 +555,7 @@
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
+				FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */,
 				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
 				FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */,

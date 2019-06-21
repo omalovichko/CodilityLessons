@@ -60,7 +60,7 @@ __Lesson 10 - Prime and composite numbers__
 * Flags: Find the maximum number of flags that can be set on mountain peaks.
 
 __Lesson 11 - Sieve of Eratosthenes__
-* CountSemiprimes: Count the semiprime numbers in the given range [a..b]
+* CountSemiprimes: Count the semiprime numbers in the given range [a..b].
 * CountNonDivisible: Calculate the number of elements of an array that are not divisors of each element.
 
 __Lesson 12 - Euclidean algorithm__
@@ -68,8 +68,8 @@ __Lesson 12 - Euclidean algorithm__
 * CommonPrimeDivisors: Check whether two numbers have the same prime divisors.
 
 __Lesson 13 - Fibonacci numbers__
-* ~~FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.~~
 * ~~Ladder: Count the number of different ways of climbing to the top of a ladder.~~
+* FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.
 
 __Lesson 14 - Binary search algorithm__
 * ~~NailingPlanks: Count the minimum number of nails that allow a series of planks to be nailed.~~
