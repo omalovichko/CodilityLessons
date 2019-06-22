@@ -68,7 +68,7 @@ __Lesson 12 - Euclidean algorithm__
 * CommonPrimeDivisors: Check whether two numbers have the same prime divisors.
 
 __Lesson 13 - Fibonacci numbers__
-* ~~Ladder: Count the number of different ways of climbing to the top of a ladder.~~
+* Ladder: Count the number of different ways of climbing to the top of a ladder.
 * FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.
 
 __Lesson 14 - Binary search algorithm__

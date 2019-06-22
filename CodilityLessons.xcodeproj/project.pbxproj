@@ -202,6 +202,7 @@
 				FA3A3DAE222009A90064204D /* Lesson 10 Prime and composite numbers */,
 				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
 				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
+				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
 				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
@@ -231,7 +232,6 @@
 		FA3A3DA62220090C0064204D /* Lessons in progress */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
 				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
 				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
