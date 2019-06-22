@@ -362,8 +362,8 @@
 		FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */ = {
 			isa = PBXGroup;
 			children = (
-				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
 				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
+				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
 			);
 			name = "Lesson 15 Caterpillar method";
 			sourceTree = "<group>";

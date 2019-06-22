@@ -76,9 +76,9 @@ __Lesson 14 - Binary search algorithm__
 * ~~MinMaxDivision: Divide array A into K blocks and minimize the largest sum of any block.~~
 
 __Lesson 15 - Caterpillar method__
-* AbsDistinct: Compute number of distinct absolute values of sorted array elements.
-* ~~CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).~~
+* CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
 * ~~CountTriangles: Count the number of triangles that can be built from a given set of edges.~~
+* AbsDistinct: Compute number of distinct absolute values of sorted array elements.
 * ~~MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.~~
 
 __Lesson 16 - Greedy algorithms__
