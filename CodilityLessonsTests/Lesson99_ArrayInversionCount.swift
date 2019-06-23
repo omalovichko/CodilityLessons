@@ -137,7 +137,6 @@ class Lesson99_ArrayInversionCount: XCTestCase {
     }
     
     func testMeasure3() {
-        // Time: 0.292 sec
         var arr = [Int]()
         let count = 100_000
         for i in 0..<count {

@@ -62,6 +62,7 @@
 		FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */; };
 		FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */; };
 		FA96D8EE22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */; };
+		FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 		FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */; };
 /* End PBXBuildFile section */
@@ -138,6 +139,7 @@
 		FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_SocksLaundering.swift; sourceTree = "<group>"; };
 		FA9620F41FBEF20000A4B668 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_CountTriangles.swift; sourceTree = "<group>"; };
+		FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_MinAbsSumOfTwo.swift; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
 				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
 				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
+				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
 				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
@@ -235,7 +238,6 @@
 			isa = PBXGroup;
 			children = (
 				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
-				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
 				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
 				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
@@ -367,6 +369,7 @@
 				FA8EF8891EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift */,
 				FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */,
 				FA8EF8871EAF7F9900B0523E /* Lesson15_AbsDistinct.swift */,
+				FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */,
 			);
 			name = "Lesson 15 Caterpillar method";
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				FA35586C22B5792F0096503A /* Lesson13_FibFrog.swift in Sources */,
 				FA8EF88A1EAF872F00B0523E /* Lesson15_CountDistinctSlices.swift in Sources */,
 				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,
+				FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */,
 				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
 				FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */,
 				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,

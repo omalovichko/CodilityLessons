@@ -78,7 +78,6 @@ class Lesson90_SlalomSkiing: XCTestCase {
     }
     
     func testMeasure() {
-        // Time: 2.001 sec
         var arr = [Int]()
         let count = 3_000
         for i in 0..<count {

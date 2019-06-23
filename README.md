@@ -79,7 +79,7 @@ __Lesson 15 - Caterpillar method__
 * CountDistinctSlices: Count the number of distinct slices (containing only unique numbers).
 * CountTriangles: Count the number of triangles that can be built from a given set of edges.
 * AbsDistinct: Compute number of distinct absolute values of sorted array elements.
-* ~~MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.~~
+* MinAbsSumOfTwo: Find the minimal absolute value of a sum of two elements.
 
 __Lesson 16 - Greedy algorithms__
 * MaxNonoverlappingSegments: Find a maximal set of non-overlapping segments.

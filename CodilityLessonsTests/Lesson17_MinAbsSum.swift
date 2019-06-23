@@ -95,7 +95,6 @@ class Lesson17_MinAbsSum: XCTestCase {
     }
     
     func testPerfomance4() {
-        // Time: 0.174 sec
         var a = Array(repeatElement(4, count: 19_999))
         a.append(1)
         measure {
