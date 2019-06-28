@@ -63,6 +63,8 @@
 		FA9037D21EA920D8005A071F /* Lesson92_SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */; };
 		FA96D8EE22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */; };
 		FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */; };
+		FA96D8F222BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */; };
+		FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 		FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */; };
 /* End PBXBuildFile section */
@@ -140,6 +142,8 @@
 		FA9620F41FBEF20000A4B668 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 		FA96D8ED22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_CountTriangles.swift; sourceTree = "<group>"; };
 		FA96D8EF22BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson15_MinAbsSumOfTwo.swift; sourceTree = "<group>"; };
+		FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14_MinMaxDivision.swift; sourceTree = "<group>"; };
+		FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson14_NailingPlanks.swift; sourceTree = "<group>"; };
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
@@ -359,6 +363,8 @@
 		FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				FA96D8F122BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift */,
+				FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */,
 			);
 			name = "Lesson 14 Binary search algorithm";
 			sourceTree = "<group>";
@@ -558,6 +564,7 @@
 				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,
 				FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */,
 				FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */,
+				FA96D8F222BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift in Sources */,
 				FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */,
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
@@ -577,6 +584,7 @@
 				FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */,
 				FA1F2A381E953C66002437F3 /* Lesson6_MaxProductOfThree.swift in Sources */,
 				FA1196721EA0F74E00BABC91 /* Lesson9_MaxDoubleSliceSum.swift in Sources */,
+				FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */,
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
