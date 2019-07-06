@@ -64,18 +64,13 @@ class Lesson14_MinMaxDivision: XCTestCase {
     
     func test() {
         var a = [Int]()
+        var k: Int
+        var m: Int
         
-//        a = [8, 5, 3, 4, 6, 8]
-//        XCTAssertEqual(solution(&a), 6)
-//
-//        a = [1, 4, -3]
-//        XCTAssertEqual(solution(&a), 1)
-//
-//        a = [-8, 4, 5, -10, 3]
-//        XCTAssertEqual(solution(&a), 3)
-//
-//        a = [0]
-//        XCTAssertEqual(solution(&a), 0)
+        a = [2, 1, 5, 1, 2, 2, 2]
+        k = 3
+        m = 5
+//        XCTAssertEqual(solution(k, m, &a), 6)
     }
     
 //    func testPerformance() {
@@ -88,7 +83,66 @@ class Lesson14_MinMaxDivision: XCTestCase {
 //        }
 //    }
     
-    public func solution(_ K : Int, _ M : Int, _ A : inout [Int]) -> Int {
-        return 0
-    }
+//    public func solution(_ K : Int, _ M : Int, _ A : inout [Int]) -> Int {
+//        var prefixSums = [0]
+//        for i in 0..<A.count {
+////            totalSum += A[i]
+//            prefixSums.append(prefixSums.last! + A[i])
+//        }
+//        
+//        let totalSum = prefixSums.last!
+//        
+//        let calc: (_ startIndex: Int) -> Int = { startIndex in
+//            for i in startIndex..<prefixSums.count {
+//                let totalLeftSum = prefixSums[i]
+//                let sum = totalLeftSum - handledLeftSum
+//                
+//                if targetSum == sum {
+//                    handledLeftSum = totalLeftSum
+//                    blocks += 1
+//                }
+//            }
+//            return 1
+//        }
+//        
+//        
+//        var targetSum = totalSum / K
+//        
+//        var handledLeftSum = 0
+//        var blocks = 0
+//        
+//        
+//        
+//        
+////        var totalSum = prefixSums.last!
+////
+////        var targetSum = totalSum / K
+////
+////        var left = 0
+////        var right = A.count - 1
+////        var handledLeftSum = 0
+////        var position = -1
+////        var currentLeftSum = -1
+////
+////        repeat {
+////            let mid = (left + right) / 2
+////            let totalLeftSum = prefixSums[mid]
+////            let leftSum = totalLeftSum - handledLeftSum
+////
+////            if leftSum == targetSum {
+////                handledLeftSum = totalLeftSum
+////                position = mid
+////                break
+////            } else if leftSum > targetSum {
+////                right = mid - 1
+////            } else {
+////                left = mid + 1
+////                position = mid
+////                currentLeftSum = leftSum
+////            }
+////        } while left <= right
+////        print(position)
+//        
+//        return targetSum
+//    }
 }
