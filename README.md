@@ -95,7 +95,7 @@ __Lesson 90 - Tasks from Indeed Prime 2015 challenge__
 * ~~SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.~~
 
 __Lesson 91 - Tasks from Indeed Prime 2016 challenge__
-* ~~RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.~~
+* RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
 * ~~TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.~~
 * ~~HilbertMaze: Find the shortest path between two fields in a Hilbert maze.~~
 * DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.

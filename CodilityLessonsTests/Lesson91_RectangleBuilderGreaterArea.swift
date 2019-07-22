@@ -42,9 +42,10 @@ import XCTest
  X is an integer within the range [1..1,000,000,000];
  each element of array A is an integer within the range [1..1,000,000,000].
 */
+
 class Lesson91_RectangleBuilderGreaterArea: XCTestCase {
     
-    func test() {
+    func tests() {
         var a = [Int]()
         
         a = [1, 2, 3, 5, 8, 13, 21, 34, 55, 1, 2, 3, 5, 8, 13, 21, 34, 55]
@@ -71,28 +72,27 @@ class Lesson91_RectangleBuilderGreaterArea: XCTestCase {
     
     func testPerformance() {
         var a = [Int]()
-        for i in 1..<50_000 {
-            a.append(i)
-            a.append(i)
+        for i in 1..<50_000 + 1 {
+            a.append(contentsOf: [i, i])
         }
         measure {
-            _ = self.solution(&a, 1)//500_000_000)
+            _ = self.solution(&a, 1_000_000_000)
         }
     }
     
     public func solution(_ A : inout [Int], _ X : Int) -> Int {
         // key: length, value: count
-        var piecesCount = [Int: Int]()
+        var pieces = [Int: Int]()
         for i in 0..<A.count {
             let pieceLength = A[i]
-            if let count = piecesCount[pieceLength] {
-                piecesCount[pieceLength] = count + 1
+            if let count = pieces[pieceLength] {
+                pieces[pieceLength] = count + 1
             } else {
-                piecesCount[pieceLength] = 1
+                pieces[pieceLength] = 1
             }
         }
         
-        var fencesCount = 0
+        var piecesCount = 0
         
         let sqrtX = Int(sqrt(Double(X)).rounded(.up))
         
@@ -105,7 +105,7 @@ class Lesson91_RectangleBuilderGreaterArea: XCTestCase {
         // [1, sqrtX)
         var shortPieces = [Int]()
         
-        for entry in piecesCount {
+        for entry in pieces {
             let count = entry.value
             guard count >= 2 else {
                 continue
@@ -116,14 +116,14 @@ class Lesson91_RectangleBuilderGreaterArea: XCTestCase {
             if length >= X {
                 if count >= 4 {
                     // It is square, so + 1
-                    fencesCount += 1
+                    piecesCount += 1
                 }
                 
                 longPiecesCount += 1
             } else if length >= sqrtX {
                 if count >= 4 {
                     // It is square, so + 1
-                    fencesCount += 1
+                    piecesCount += 1
                 }
                 
                 mediumPieces.append(length)
@@ -133,42 +133,52 @@ class Lesson91_RectangleBuilderGreaterArea: XCTestCase {
         }
         
         let ml = mediumPieces.count + longPiecesCount
-        fencesCount += ((ml - 1) * ml) / 2
-        fencesCount += shortPieces.count * longPiecesCount
+        piecesCount += ((ml - 1) * ml) / 2
+        piecesCount += shortPieces.count * longPiecesCount
 
-        if fencesCount > 1_000_000_000 {
+        if piecesCount > 1_000_000_000 {
             return -1
         }
         
-        var shortPiecesSorted = shortPieces.sorted()
-        var mediumPiecesSorted = mediumPieces.sorted()
+        let shortPiecesSorted = shortPieces.sorted()
+        let mediumPiecesSorted = mediumPieces.sorted()
         
-        // Caterpillar method
-        var shortEdge = shortPiecesSorted.count
-        var mediumEdge = mediumPiecesSorted.count
-        var i = 0
-        while i < shortEdge {
-            let short = shortPiecesSorted[i]
+        // Caterpillar method + binary search
+        let shortPiecesCount = shortPiecesSorted.count
+        var rightEdge = mediumPiecesSorted.count - 1
+        
+        for i in 0..<shortPiecesCount {
+            let shortPiece = shortPiecesSorted[i]
 
-            var j = 0
-            while j < mediumEdge {
-                let medium = mediumPiecesSorted[j]
-
-                if short * medium >= X {
-                    let a = shortPiecesSorted.count - i
-                    let b = mediumEdge - j
-                    fencesCount += a * b
-                    mediumEdge = j
-                    break
+            var left = 0
+            var right = rightEdge
+            var position: Int?
+            
+            while left <= right {
+                let mid = (left + right) / 2
+                let mediumPiece = mediumPiecesSorted[mid]
+                if mediumPiece * shortPiece < X {
+                    left = mid + 1
+                } else {
+                    right = mid - 1
+                    position = mid
                 }
-                j += 1
             }
-            if fencesCount > 1_000_000_000 {
+            
+            if let position = position {
+                let a = shortPiecesCount - i
+                let b = rightEdge - position + 1
+                piecesCount += a * b
+                rightEdge = position - 1
+            }
+            
+            if piecesCount > 1_000_000_000 {
                 return -1
+            } else if rightEdge < 0 {
+                return piecesCount
             }
-            i += 1
         }
         
-        return fencesCount
+        return piecesCount
     }
 }
