@@ -67,82 +67,100 @@ class Lesson14_MinMaxDivision: XCTestCase {
         var k: Int
         var m: Int
         
+        a = [5, 3]
+        k = 1
+        m = 10
+        XCTAssertEqual(solution(k, m, &a), 8)
+        
+        a = [5, 3]
+        k = 2
+        m = 5
+        XCTAssertEqual(solution(k, m, &a), 5)
+        
         a = [2, 1, 5, 1, 2, 2, 2]
         k = 3
         m = 5
-//        XCTAssertEqual(solution(k, m, &a), 6)
+        XCTAssertEqual(solution(k, m, &a), 6)
     }
     
-//    func testPerformance() {
-//        var a = [Int]()
-//        for i in -50_000...50_000 {
-//            a.append(i)
-//        }
-//        measure {
-//            _ = solution(&a)
-//        }
-//    }
+    func testPerformance() {
+        var a = [Int]()
+        for i in 1...10_000 {
+            a.append(i)
+        }
+        let k = 1000
+        let m = 10_000
+        measure {
+            _ = solution(k, m, &a)
+        }
+    }
     
-//    public func solution(_ K : Int, _ M : Int, _ A : inout [Int]) -> Int {
-//        var prefixSums = [0]
-//        for i in 0..<A.count {
-////            totalSum += A[i]
-//            prefixSums.append(prefixSums.last! + A[i])
-//        }
-//        
-//        let totalSum = prefixSums.last!
-//        
-//        let calc: (_ startIndex: Int) -> Int = { startIndex in
-//            for i in startIndex..<prefixSums.count {
-//                let totalLeftSum = prefixSums[i]
-//                let sum = totalLeftSum - handledLeftSum
-//                
-//                if targetSum == sum {
-//                    handledLeftSum = totalLeftSum
-//                    blocks += 1
-//                }
-//            }
-//            return 1
-//        }
-//        
-//        
-//        var targetSum = totalSum / K
-//        
-//        var handledLeftSum = 0
-//        var blocks = 0
-//        
-//        
-//        
-//        
-////        var totalSum = prefixSums.last!
-////
-////        var targetSum = totalSum / K
-////
-////        var left = 0
-////        var right = A.count - 1
-////        var handledLeftSum = 0
-////        var position = -1
-////        var currentLeftSum = -1
-////
-////        repeat {
-////            let mid = (left + right) / 2
-////            let totalLeftSum = prefixSums[mid]
-////            let leftSum = totalLeftSum - handledLeftSum
-////
-////            if leftSum == targetSum {
-////                handledLeftSum = totalLeftSum
-////                position = mid
-////                break
-////            } else if leftSum > targetSum {
-////                right = mid - 1
-////            } else {
-////                left = mid + 1
-////                position = mid
-////                currentLeftSum = leftSum
-////            }
-////        } while left <= right
-////        print(position)
-//        
-//        return targetSum
-//    }
+    public func solution(_ K : Int, _ M : Int, _ A : inout [Int]) -> Int {
+        var maxElement = A.first!
+        var prefixSums = [A.first!]
+        for i in 1..<A.count {
+            let element = A[i]
+            prefixSums.append(prefixSums.last! + element)
+            maxElement = max(element, maxElement)
+        }
+        
+        var result = 0
+        let totalSum = prefixSums.last!
+        
+        var minTargetBlockSum = Int((Double(totalSum) / Double(K)).rounded(.up))
+        minTargetBlockSum = max(minTargetBlockSum, maxElement)
+        var maxTargetBlockSum = totalSum
+        var targetBlockSum = (maxTargetBlockSum + minTargetBlockSum) / 2
+        
+        var handledLeftIndex = 0
+        var handledLeftSum = 0
+        
+        var blocksCount = 0
+        var maxCurrentBlockSum = 0
+        
+        while blocksCount != K && minTargetBlockSum <= maxTargetBlockSum {
+            
+            var leftIndex = handledLeftIndex
+            var rightIndex = prefixSums.count - 1
+            var position: Int?
+            
+            while leftIndex <= rightIndex {
+                let mid = (leftIndex + rightIndex) / 2
+                let totalLeftSum = prefixSums[mid]
+                let currentBlockSum = totalLeftSum - handledLeftSum
+                
+                if currentBlockSum > targetBlockSum {
+                    rightIndex = mid - 1
+                } else {
+                    leftIndex = mid + 1
+                    position = mid
+                    maxCurrentBlockSum = max(maxCurrentBlockSum, currentBlockSum)
+                }
+            }
+                 
+            handledLeftIndex = position!
+            handledLeftSum = prefixSums[position!]
+            blocksCount += 1
+            
+            let tooSmallBlockSize = (totalSum - handledLeftSum) > (K - blocksCount) * targetBlockSum
+            
+            if blocksCount == K || tooSmallBlockSize {
+                let delta = totalSum - handledLeftSum
+                if delta > 0 {
+                    minTargetBlockSum = targetBlockSum + 1
+                } else {
+                    maxTargetBlockSum = targetBlockSum - 1
+                    result = maxCurrentBlockSum
+                }
+                targetBlockSum = (maxTargetBlockSum + minTargetBlockSum) / 2
+                
+                handledLeftIndex = 0
+                handledLeftSum = 0
+                blocksCount = 0
+                maxCurrentBlockSum = 0
+            }
+        }
+        
+        return result
+    }
 }

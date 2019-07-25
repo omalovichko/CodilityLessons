@@ -211,11 +211,13 @@
 				FA3A3DAF222009C90064204D /* Lesson 11 Sieve of Eratosthenes */,
 				FA3A3DB0222009D30064204D /* Lesson 12 Euclidean algorithm */,
 				FA3A3DB1222009E00064204D /* Lesson 13 Fibonacci numbers */,
+				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
 				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
 				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
 				FA3A3DA62220090C0064204D /* Lessons in progress */,
+				FADC82F022E9EE320072D77C /* Swift Loops */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
 			);
 			path = CodilityLessonsTests;
@@ -241,7 +243,6 @@
 		FA3A3DA62220090C0064204D /* Lessons in progress */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A3DB2222009EF0064204D /* Lesson 14 Binary search algorithm */,
 				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
 				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
 				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
@@ -424,6 +425,13 @@
 				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
 			);
 			name = "Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge";
+			sourceTree = "<group>";
+		};
+		FADC82F022E9EE320072D77C /* Swift Loops */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Swift Loops";
 			sourceTree = "<group>";
 		};
 		FAE55B77221DD2810058DB8C /* Lesson 99 Future training */ = {

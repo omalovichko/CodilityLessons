@@ -72,7 +72,7 @@ __Lesson 13 - Fibonacci numbers__
 * FibFrog: Count the minimum number of jumps required for a frog to get to the other side of a river.
 
 __Lesson 14 - Binary search algorithm__
-* ~~MinMaxDivision: Divide array A into K blocks and minimize the largest sum of any block.~~
+* MinMaxDivision: Divide array A into K blocks and minimize the largest sum of any block.
 * NailingPlanks: Count the minimum number of nails that allow a series of planks to be nailed.
 
 __Lesson 15 - Caterpillar method__
