@@ -67,11 +67,11 @@
 		FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 		FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */; };
-		FADC82F822E9F3620072D77C /* Lesson91_TreeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */; };
-		FADC82FA22E9F37A0072D77C /* Lesson91_HilbertMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */; };
+		FAD7743024CCBF0900185FBA /* SwiftLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */; };
+		FAD7743224CCBF1F00185FBA /* Lesson91_TreeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */; };
+		FAD7743424CCBF2600185FBA /* Lesson91_HilbertMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */; };
 		FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */; };
 		FADC82FF22E9F5AC0072D77C /* Lesson92_DiamondsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */; };
-		FADC830122EA28040072D77C /* SwiftLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC830022EA28040072D77C /* SwiftLoops.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -152,11 +152,11 @@
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
+		FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoops.swift; sourceTree = "<group>"; };
+		FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_TreeProduct.swift; sourceTree = "<group>"; };
+		FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson91_HilbertMaze.swift; sourceTree = "<group>"; };
 		FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson92_DiamondsCount.swift; sourceTree = "<group>"; };
-		FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lesson91_TreeProduct.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/Lesson91_TreeProduct.swift; sourceTree = "<group>"; };
-		FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lesson91_HilbertMaze.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/Lesson91_HilbertMaze.swift; sourceTree = "<group>"; };
 		FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_ArrayRecovery.swift; sourceTree = "<group>"; };
-		FADC830022EA28040072D77C /* SwiftLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftLoops.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/SwiftLoops.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -256,9 +256,9 @@
 		FA3A3DA62220090C0064204D /* In progress */ = {
 			isa = PBXGroup;
 			children = (
+				FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */,
+				FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */,
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
-				FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */,
-				FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */,
 				FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */,
 			);
 			name = "In progress";
@@ -444,7 +444,7 @@
 		FADC82F022E9EE320072D77C /* Swift Loops */ = {
 			isa = PBXGroup;
 			children = (
-				FADC830022EA28040072D77C /* SwiftLoops.swift */,
+				FAD7742F24CCBF0900185FBA /* SwiftLoops.swift */,
 			);
 			name = "Swift Loops";
 			sourceTree = "<group>";
@@ -563,11 +563,13 @@
 				FA1F2A2B1E953C66002437F3 /* Lesson2_CyclicRotation.swift in Sources */,
 				FA1C02181EADF34F00823EC4 /* Lesson16_TieRopes.swift in Sources */,
 				FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */,
+				FAD7743224CCBF1F00185FBA /* Lesson91_TreeProduct.swift in Sources */,
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
-				FADC830122EA28040072D77C /* SwiftLoops.swift in Sources */,
+				FAD7743024CCBF0900185FBA /* SwiftLoops.swift in Sources */,
 				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
 				FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */,
+				FAD7743424CCBF2600185FBA /* Lesson91_HilbertMaze.swift in Sources */,
 				FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */,
 				FA6A4DB61E9E65F800C9BA31 /* Lesson8_EquiLeader.swift in Sources */,
 				FA03AEB61EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift in Sources */,
@@ -594,7 +596,6 @@
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
-				FADC82FA22E9F37A0072D77C /* Lesson91_HilbertMaze.swift in Sources */,
 				FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */,
 				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
@@ -614,7 +615,6 @@
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
-				FADC82F822E9F3620072D77C /* Lesson91_TreeProduct.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
 				FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */,
 				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
