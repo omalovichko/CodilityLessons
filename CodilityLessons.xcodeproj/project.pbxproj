@@ -67,6 +67,11 @@
 		FA96D8F422BF7873000BD7E9 /* Lesson14_NailingPlanks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA96D8F322BF7873000BD7E9 /* Lesson14_NailingPlanks.swift */; };
 		FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */; };
 		FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */; };
+		FADC82F822E9F3620072D77C /* Lesson91_TreeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */; };
+		FADC82FA22E9F37A0072D77C /* Lesson91_HilbertMaze.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */; };
+		FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */; };
+		FADC82FF22E9F5AC0072D77C /* Lesson92_DiamondsCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */; };
+		FADC830122EA28040072D77C /* SwiftLoops.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC830022EA28040072D77C /* SwiftLoops.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,6 +152,11 @@
 		FABB1B411E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson9_MaxSliceSum.swift; sourceTree = "<group>"; };
 		FAC133E01EF15A8100BCEBB9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FACD0A281EF7E2B600B4BDEA /* Lesson10_Peaks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson10_Peaks.swift; sourceTree = "<group>"; };
+		FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson92_DiamondsCount.swift; sourceTree = "<group>"; };
+		FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lesson91_TreeProduct.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/Lesson91_TreeProduct.swift; sourceTree = "<group>"; };
+		FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Lesson91_HilbertMaze.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/Lesson91_HilbertMaze.swift; sourceTree = "<group>"; };
+		FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson92_ArrayRecovery.swift; sourceTree = "<group>"; };
+		FADC830022EA28040072D77C /* SwiftLoops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SwiftLoops.swift; path = ../../../../../System/Volumes/Data/Users/alex/workspace/CodilityLessons/CodilityLessonsTests/SwiftLoops.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,8 +225,11 @@
 				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
+				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
+				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
+				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
 				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
-				FA3A3DA62220090C0064204D /* Lessons in progress */,
+				FA3A3DA62220090C0064204D /* In progress */,
 				FADC82F022E9EE320072D77C /* Swift Loops */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
 			);
@@ -240,14 +253,16 @@
 			name = "Lesson 2 Arrays";
 			sourceTree = "<group>";
 		};
-		FA3A3DA62220090C0064204D /* Lessons in progress */ = {
+		FA3A3DA62220090C0064204D /* In progress */ = {
 			isa = PBXGroup;
 			children = (
-				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
-				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
-				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
+				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
+				FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */,
+				FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */,
+				FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */,
+				FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */,
 			);
-			name = "Lessons in progress";
+			name = "In progress";
 			sourceTree = "<group>";
 		};
 		FA3A3DA72220091E0064204D /* Lesson 3 Time Complexity */ = {
@@ -404,7 +419,6 @@
 			children = (
 				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 				FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */,
-				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 			);
 			name = "Lesson 90 Tasks from Indeed Prime 2015 challenge";
 			sourceTree = "<group>";
@@ -430,6 +444,7 @@
 		FADC82F022E9EE320072D77C /* Swift Loops */ = {
 			isa = PBXGroup;
 			children = (
+				FADC830022EA28040072D77C /* SwiftLoops.swift */,
 			);
 			name = "Swift Loops";
 			sourceTree = "<group>";
@@ -490,7 +505,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1160;
 				TargetAttributes = {
 					FA1F2A021E953B0D002437F3 = {
 						CreatedOnToolsVersion = 8.3;
@@ -550,6 +565,7 @@
 				FA3B90D022B53A3800EC941E /* Lesson11_CountNonDivisible.swift in Sources */,
 				FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */,
 				FA1F2A291E953C66002437F3 /* Lesson1_Iterations.swift in Sources */,
+				FADC830122EA28040072D77C /* SwiftLoops.swift in Sources */,
 				FA172A641EB2440000585F28 /* Lesson10_MinPerimeterRectangle.swift in Sources */,
 				FA3B90CE22B508F700EC941E /* Lesson11_CountSemiprimes.swift in Sources */,
 				FA2999C8223AC6FE00F30C39 /* Lesson10_Flags.swift in Sources */,
@@ -572,11 +588,13 @@
 				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,
 				FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */,
 				FA1F2A371E953C66002437F3 /* Lesson6_Distinct.swift in Sources */,
+				FADC82FF22E9F5AC0072D77C /* Lesson92_DiamondsCount.swift in Sources */,
 				FA96D8F222BF7853000BD7E9 /* Lesson14_MinMaxDivision.swift in Sources */,
 				FA1F2A351E953C66002437F3 /* Lesson5_MinAvgTwoSlice.swift in Sources */,
 				FA6A4DB41E9E400D00C9BA31 /* Lesson7_StoneWall.swift in Sources */,
 				FA6A4DB21E9E3FF900C9BA31 /* Lesson7_Nesting.swift in Sources */,
 				FA6A4DB81E9E660000C9BA31 /* Lesson8_Dominator.swift in Sources */,
+				FADC82FA22E9F37A0072D77C /* Lesson91_HilbertMaze.swift in Sources */,
 				FA35586A22B579060096503A /* Lesson13_Ladder.swift in Sources */,
 				FA2A07E81EB3384700951C8A /* Lesson12_ChocolatesByNumbers.swift in Sources */,
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
@@ -596,7 +614,9 @@
 				FABB1B421E9FFBD600B2E6A5 /* Lesson9_MaxSliceSum.swift in Sources */,
 				FACD0A291EF7E2B600B4BDEA /* Lesson10_Peaks.swift in Sources */,
 				FA6A4DB01E9D56C200C9BA31 /* Lesson7_Fish.swift in Sources */,
+				FADC82F822E9F3620072D77C /* Lesson91_TreeProduct.swift in Sources */,
 				FA1F2A301E953C66002437F3 /* Lesson4_PermCheck.swift in Sources */,
+				FADC82FE22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift in Sources */,
 				FA172A621EB242F000585F28 /* Lesson10_CountFactors.swift in Sources */,
 				FA54888120ED6F4E00AB4CA5 /* Lesson17_MinAbsSum.swift in Sources */,
 				FA9037D01EA8E302005A071F /* Lesson90_FloodDepth.swift in Sources */,
@@ -724,6 +744,7 @@
 		FA1F2A0B1E953B0D002437F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -732,6 +753,7 @@
 		FA1F2A0C1E953B0D002437F3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
