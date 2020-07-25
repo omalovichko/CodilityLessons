@@ -7,3 +7,8 @@
 
 import XCTest
 
+class Lesson92_ArrayRecovery: XCTestCase {
+
+    func test() {
+    }
+}

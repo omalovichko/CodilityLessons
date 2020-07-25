@@ -259,7 +259,6 @@
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 				FADC82F722E9F3620072D77C /* Lesson91_TreeProduct.swift */,
 				FADC82F922E9F37A0072D77C /* Lesson91_HilbertMaze.swift */,
-				FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */,
 				FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */,
 			);
 			name = "In progress";
@@ -437,6 +436,7 @@
 			children = (
 				FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */,
 				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
+				FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */,
 			);
 			name = "Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge";
 			sourceTree = "<group>";
