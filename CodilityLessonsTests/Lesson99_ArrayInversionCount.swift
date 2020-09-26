@@ -115,7 +115,7 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         XCTAssertEqual(ll.root.right?.right?.key, 43)
     }
     
-    func testMeasure1() {
+    func testPerformance1() {
         var arr = [Int]()
         let count = 3_000
         for i in 0..<count {
@@ -125,8 +125,8 @@ class Lesson99_ArrayInversionCount: XCTestCase {
             XCTAssertEqual(self.solution(&arr), 4498500)
         }
     }
-    
-    func testMeasure2() {
+
+    func testPerformance2() {
         var arr = [Int]()
         for i in 0..<3_000 {
             arr.append(i)
@@ -136,7 +136,7 @@ class Lesson99_ArrayInversionCount: XCTestCase {
         }
     }
     
-    func testMeasure3() {
+    func testPerformance3() {
         var arr = [Int]()
         let count = 100_000
         for i in 0..<count {

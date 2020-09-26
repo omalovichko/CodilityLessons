@@ -43,7 +43,7 @@ class Lesson1_Iterations: XCTestCase {
         var length = 0
         
         for c in str {
-            if c ==  "0" {
+            if c == "0" {
                 length += 1
             } else {
                 maxLength = max(maxLength, length)

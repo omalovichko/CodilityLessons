@@ -106,7 +106,7 @@ class Lesson99_PolygonConcavityIndex: XCTestCase {
         XCTAssertTrue(solution(&points) == 2 || solution(&points) == 6 )
     }
     
-    func testMeasure() {
+    func testPerformance() {
         let point = { (x: Int, y: Int) -> Point2D in
             var point = Point2D()
             point.x = x
