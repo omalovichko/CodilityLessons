@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7ADD23AF2699E19400333A52 /* Training5_FirstUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23AE2699E19400333A52 /* Training5_FirstUnique.swift */; };
+		7ADD23B12699E22100333A52 /* Training5_DisappearingPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B02699E22100333A52 /* Training5_DisappearingPairs.swift */; };
+		7ADD23B32699E25A00333A52 /* Training5_ThreeLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */; };
 		FA03AEB01EA607B100663D2F /* Lesson99_SqlSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */; };
 		FA03AEB21EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */; };
 		FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */; };
@@ -87,6 +90,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7ADD23AE2699E19400333A52 /* Training5_FirstUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_FirstUnique.swift; sourceTree = "<group>"; };
+		7ADD23B02699E22100333A52 /* Training5_DisappearingPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_DisappearingPairs.swift; sourceTree = "<group>"; };
+		7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ThreeLetters.swift; sourceTree = "<group>"; };
 		FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_SqlSum.swift; sourceTree = "<group>"; };
 		FA03AEB11EA608C600663D2F /* Lesson99_StrSymmetryPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_StrSymmetryPoint.swift; sourceTree = "<group>"; };
 		FA03AEB31EA60D5800663D2F /* Lesson99_TreeHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson99_TreeHeight.swift; sourceTree = "<group>"; };
@@ -177,6 +183,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7ADD23AD2699DDD000333A52 /* Training 5 - July 2021 */ = {
+			isa = PBXGroup;
+			children = (
+				7ADD23AE2699E19400333A52 /* Training5_FirstUnique.swift */,
+			);
+			name = "Training 5 - July 2021";
+			sourceTree = "<group>";
+		};
 		FA1F29FA1E953B0D002437F3 = {
 			isa = PBXGroup;
 			children = (
@@ -225,10 +239,11 @@
 				FA3A3DB3222009FA0064204D /* Lesson 15 Caterpillar method */,
 				FA3A3DB422200A040064204D /* Lesson 16 Greedy algorithms */,
 				FA3A3DB522200A200064204D /* Lesson 17 Dynamic programming */,
-				FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */,
-				FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */,
-				FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */,
-				FAE55B77221DD2810058DB8C /* Lesson 99 Future training */,
+				FA3A3DB622200A380064204D /* Training 1 - Tasks from Indeed Prime 2015 challenge */,
+				FA3A3DB722200A4A0064204D /* Training 2 - Tasks from Indeed Prime 2016 challenge */,
+				FA3A3DB822200A5F0064204D /* Training 3 - Tasks from Indeed Prime 2016 College Coders challenge */,
+				FAE55B77221DD2810058DB8C /* Training 4 - June 2021 */,
+				7ADD23AD2699DDD000333A52 /* Training 5 - July 2021 */,
 				FA3A3DA62220090C0064204D /* In progress */,
 				FADC82F022E9EE320072D77C /* Swift Loops */,
 				FA1F2A151E953B44002437F3 /* Info.plist */,
@@ -256,6 +271,8 @@
 		FA3A3DA62220090C0064204D /* In progress */ = {
 			isa = PBXGroup;
 			children = (
+				7ADD23B02699E22100333A52 /* Training5_DisappearingPairs.swift */,
+				7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */,
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 				FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */,
 				FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */,
@@ -413,32 +430,32 @@
 			name = "Lesson 17 Dynamic programming";
 			sourceTree = "<group>";
 		};
-		FA3A3DB622200A380064204D /* Lesson 90 Tasks from Indeed Prime 2015 challenge */ = {
+		FA3A3DB622200A380064204D /* Training 1 - Tasks from Indeed Prime 2015 challenge */ = {
 			isa = PBXGroup;
 			children = (
 				FA9037CD1EA8CF13005A071F /* Lesson90_LongestPassword.swift */,
 				FA9037CF1EA8E302005A071F /* Lesson90_FloodDepth.swift */,
 			);
-			name = "Lesson 90 Tasks from Indeed Prime 2015 challenge";
+			name = "Training 1 - Tasks from Indeed Prime 2015 challenge";
 			sourceTree = "<group>";
 		};
-		FA3A3DB722200A4A0064204D /* Lesson 91 Tasks from Indeed Prime 2016 challenge */ = {
+		FA3A3DB722200A4A0064204D /* Training 2 - Tasks from Indeed Prime 2016 challenge */ = {
 			isa = PBXGroup;
 			children = (
 				FA1C02191EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift */,
 				FA8EF88B1EAF941B00B0523E /* Lesson91_DwarfsRafting.swift */,
 			);
-			name = "Lesson 91 Tasks from Indeed Prime 2016 challenge";
+			name = "Training 2 - Tasks from Indeed Prime 2016 challenge";
 			sourceTree = "<group>";
 		};
-		FA3A3DB822200A5F0064204D /* Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge */ = {
+		FA3A3DB822200A5F0064204D /* Training 3 - Tasks from Indeed Prime 2016 College Coders challenge */ = {
 			isa = PBXGroup;
 			children = (
 				FA9037CB1EA8CC17005A071F /* Lesson92_TennisTournament.swift */,
 				FA9037D11EA920D8005A071F /* Lesson92_SocksLaundering.swift */,
 				FADC82F622E9F3090072D77C /* Lesson92_DiamondsCount.swift */,
 			);
-			name = "Lesson 92 Tasks from Indeed Prime 2016 College Coders challenge";
+			name = "Training 3 - Tasks from Indeed Prime 2016 College Coders challenge";
 			sourceTree = "<group>";
 		};
 		FADC82F022E9EE320072D77C /* Swift Loops */ = {
@@ -449,7 +466,7 @@
 			name = "Swift Loops";
 			sourceTree = "<group>";
 		};
-		FAE55B77221DD2810058DB8C /* Lesson 99 Future training */ = {
+		FAE55B77221DD2810058DB8C /* Training 4 - June 2021 */ = {
 			isa = PBXGroup;
 			children = (
 				FA03AEAF1EA607B100663D2F /* Lesson99_SqlSum.swift */,
@@ -458,7 +475,7 @@
 				FA03AEB51EA63AE400663D2F /* Lesson99_ArrayInversionCount.swift */,
 				FA7C20911EA77E290048284F /* Lesson99_PolygonConcavityIndex.swift */,
 			);
-			name = "Lesson 99 Future training";
+			name = "Training 4 - June 2021";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -586,6 +603,8 @@
 				FA172A601EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift in Sources */,
 				FA96D8F022BEA31E000BD7E9 /* Lesson15_MinAbsSumOfTwo.swift in Sources */,
 				FA03AEB41EA60D5800663D2F /* Lesson99_TreeHeight.swift in Sources */,
+				7ADD23AF2699E19400333A52 /* Training5_FirstUnique.swift in Sources */,
+				7ADD23B32699E25A00333A52 /* Training5_ThreeLetters.swift in Sources */,
 				FA1C021A1EAE004800823EC4 /* Lesson91_RectangleBuilderGreaterArea.swift in Sources */,
 				FA9037CC1EA8CC17005A071F /* Lesson92_TennisTournament.swift in Sources */,
 				FA8EF8861EAF5F2200B0523E /* Lesson17_NumberSolitaire.swift in Sources */,
@@ -601,6 +620,7 @@
 				FA1F2A2C1E953C66002437F3 /* Lesson3_FrogJmp.swift in Sources */,
 				FA8EF8881EAF7F9900B0523E /* Lesson15_AbsDistinct.swift in Sources */,
 				FA9037CE1EA8CF13005A071F /* Lesson90_LongestPassword.swift in Sources */,
+				7ADD23B12699E22100333A52 /* Training5_DisappearingPairs.swift in Sources */,
 				FA96D8EE22BE91AA000BD7E9 /* Lesson15_CountTriangles.swift in Sources */,
 				FA12631D2234627900F07C20 /* Lesson12_CommonPrimeDivisors.swift in Sources */,
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,

@@ -106,29 +106,36 @@ __Lesson 17 - Dynamic programming__ (https://app.codility.com/programmers/lesson
 * MinAbsSum: Given array of integers, find the lowest absolute sum of elements.
 
 
-__Lesson 90 - Tasks from Indeed Prime 2015 challenge__ (https://app.codility.com/programmers/lessons/90-tasks_from_indeed_prime_2015_challenge/)
+__Training 1 - Tasks from Indeed Prime 2015 challenge__ (https://app.codility.com/programmers/trainings/1/)
 * LongestPassword: Given a string containing words, find the longest word that satisfies specific conditions.
 * FloodDepth: Find the maximum depth of water in mountains after a huge rainfall.
 * ~~SlalomSkiing: Given a sequence, find the longest subsequence that can be decomposed into at most three monotonic parts.~~
 
 
-__Lesson 91 - Tasks from Indeed Prime 2016 challenge__ (https://app.codility.com/programmers/lessons/91-tasks_from_indeed_prime_2016_challenge/)
+__Training 2 - Tasks from Indeed Prime 2016 challenge__ (https://app.codility.com/programmers/trainings/2/)
 * RectangleBuilderGreaterArea: Count the distinct rectangle sizes, of area greater than or equal to X, that can be built out of a given set of segments.
 * ~~TreeProduct: Remove at most two edges from a tree graph to maximize the product of the components' sizes.~~
 * ~~HilbertMaze: Find the shortest path between two fields in a Hilbert maze.~~
 * DwarfsRafting: Find out how many dwarfs can fit on a raft such that it's balanced when crossing a river.
 
 
-__Lesson 92 - Tasks from Indeed Prime 2016 College Coders challenge__ (https://app.codility.com/programmers/lessons/92-tasks_from_indeed_prime_2016_college_coders_challenge/)
+__Training 3 - Tasks from Indeed Prime 2016 College Coders challenge__ (https://app.codility.com/programmers/trainings/3/)
 * TennisTournament: Given the numbers of players and available courts, calculate the maximum number of parallel tennis games.
 * SocksLaundering: From drawers containing both clean and dirty socks, choose socks to launder in order to obtain the maximum number of clean pairs of socks.
 * ~~ArrayRecovery: Recover a broken array using partial information in another array.~~
 * DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 
 
-__Lesson 99 - Future training__ (https://app.codility.com/programmers/lessons/99-future_training/)
+__Training 4 - June 2021__ 
+(https://app.codility.com/programmers/trainings/4/)
 * SqlSum: Calculate sum of elements.
 * StrSymmetryPoint: Find a symmetry point of a string, if any.
 * TreeHeight: Compute the height of a binary tree.
 * ArrayInversionCount: Compute number of inversion in an array.
 * PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.
+
+__Training 5 - June 2021__
+(https://app.codility.com/programmers/trainings/5/)
+* ~~DisappearingPairs: Reduce a string containing instances of the letters "A", "B" and "C" via the following rule: remove one occurrence of "AA", "BB" or "CC".~~
+* FirstUnique: Find the first unique number in a given sequence.
+* ~~ThreeLetters: Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.~~

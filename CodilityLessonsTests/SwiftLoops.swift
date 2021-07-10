@@ -10,8 +10,8 @@ import XCTest
 // Swift 4.2, Xcode 12.4
 class SwiftLoops: XCTestCase {
     
-    static let numberOfElements = 1_000_000
-    let numbers = Array(repeating: 1, count: numberOfElements)
+    private static let numberOfElements = 1_000_000
+    private let numbers = Array(repeating: 1, count: numberOfElements)
     
     // ~0.107 sec
     func testForIn() {
