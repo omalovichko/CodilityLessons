@@ -64,7 +64,7 @@ class Lesson11_CountNonDivisible: XCTestCase {
     func testPerformance() {
         var array = [Int]()
         let range = 1...(2 * 50_000)
-        for _ in 1...5000 {
+        for _ in 1...3000 {
             array.append(Int.random(in: range))
         }
         measure {

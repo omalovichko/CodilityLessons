@@ -77,7 +77,7 @@ class Lesson17_MinAbsSum: XCTestCase {
     
     func testPerfomance2() {
         var a = [Int]()
-        for _ in 0..<20_000 {
+        for _ in 0..<2_000 {
             a.append(Int.random(in: -100...100))
         }
         measure {
@@ -86,8 +86,8 @@ class Lesson17_MinAbsSum: XCTestCase {
     }
     
     func testPerfomance3() {
-        var a = Array(repeatElement(5, count: 10_000))
-        a.append(contentsOf: Array(repeatElement(42, count: 10_000)))
+        var a = Array(repeatElement(5, count: 5_000))
+        a.append(contentsOf: Array(repeatElement(42, count: 5_000)))
         a.shuffle()
         measure {
             _ = self.solution(&a)
@@ -95,7 +95,7 @@ class Lesson17_MinAbsSum: XCTestCase {
     }
     
     func testPerfomance4() {
-        var a = Array(repeatElement(4, count: 19_999))
+        var a = Array(repeatElement(4, count: 9_999))
         a.append(1)
         measure {
             XCTAssertEqual(self.solution(&a), 3)

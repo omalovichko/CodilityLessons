@@ -256,9 +256,9 @@
 		FA3A3DA62220090C0064204D /* In progress */ = {
 			isa = PBXGroup;
 			children = (
+				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 				FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */,
 				FAD7743324CCBF2600185FBA /* Lesson91_HilbertMaze.swift */,
-				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 				FADC82FC22E9F49E0072D77C /* Lesson92_ArrayRecovery.swift */,
 			);
 			name = "In progress";

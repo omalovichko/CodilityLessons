@@ -97,7 +97,7 @@ class Lesson14_NailingPlanks: XCTestCase {
 
     func testPerformance() {
         var a = [Int]()
-        for i in 1...30_000 {
+        for i in 1...5_000 {
             a.append(i)
         }
         var b = a

@@ -7,13 +7,13 @@
 
 import XCTest
 
-// Swift 4.2
+// Swift 4.2, Xcode 12.4
 class SwiftLoops: XCTestCase {
     
     static let numberOfElements = 1_000_000
     let numbers = Array(repeating: 1, count: numberOfElements)
     
-    // ~0.250
+    // ~0.107 sec
     func testForIn() {
         measure {
             var sum = 0
@@ -24,7 +24,7 @@ class SwiftLoops: XCTestCase {
         }
     }
     
-    // ~0.498
+    // ~0.340 sec
     func testNumericRange() {
         measure {
             var sum = 0
@@ -35,7 +35,7 @@ class SwiftLoops: XCTestCase {
         }
     }
     
-    // ~0.261
+    // ~0.116 sec
     func testForEach() {
         measure {
             var sum = 0
@@ -46,7 +46,7 @@ class SwiftLoops: XCTestCase {
         }
     }
     
-    // ~0.125
+    // ~0.054
     func testStride() {
         measure {
             var sum = 0
@@ -57,7 +57,7 @@ class SwiftLoops: XCTestCase {
         }
     }
     
-    // ~0.057
+    // ~0.027
     func testWhile() {
         measure {
             var sum = 0

@@ -57,6 +57,9 @@ class Lesson6Task2: XCTestCase {
     func test() {
         var arr = [-3, 1, 2, -2, 5, 6]
         XCTAssertEqual(solution(&arr), 60)
+        
+        arr = [-1, 10, 2, -6, -5, 5, 4]
+        XCTAssertEqual(solution(&arr), 300)
     }
     
     public func solution(_ A : inout [Int]) -> Int {
