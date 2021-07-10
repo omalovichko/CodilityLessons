@@ -186,6 +186,7 @@
 		7ADD23AD2699DDD000333A52 /* Training 5 - July 2021 */ = {
 			isa = PBXGroup;
 			children = (
+				7ADD23B02699E22100333A52 /* Training5_DisappearingPairs.swift */,
 				7ADD23AE2699E19400333A52 /* Training5_FirstUnique.swift */,
 			);
 			name = "Training 5 - July 2021";
@@ -271,7 +272,6 @@
 		FA3A3DA62220090C0064204D /* In progress */ = {
 			isa = PBXGroup;
 			children = (
-				7ADD23B02699E22100333A52 /* Training5_DisappearingPairs.swift */,
 				7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */,
 				FA172A5F1EB22C7E00585F28 /* Lesson90_SlalomSkiing.swift */,
 				FAD7743124CCBF1F00185FBA /* Lesson91_TreeProduct.swift */,

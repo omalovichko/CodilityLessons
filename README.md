@@ -1,4 +1,4 @@
-# Codility Lessons [![Build Status](https://travis-ci.org/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.org/omalovichko/CodilityLessons)
+# Codility Lessons [![Build Status](https://travis-ci.com/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.com/omalovichko/CodilityLessons)
 All lessons solved in Swift 4.2
 
 Correctness: **100**%🔥
@@ -126,16 +126,14 @@ __Training 3 - Tasks from Indeed Prime 2016 College Coders challenge__ (https://
 * DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 
 
-__Training 4 - June 2021__ 
-(https://app.codility.com/programmers/trainings/4/)
+__Training 4 - June 2021__ (https://app.codility.com/programmers/trainings/4/)
 * SqlSum: Calculate sum of elements.
 * StrSymmetryPoint: Find a symmetry point of a string, if any.
 * TreeHeight: Compute the height of a binary tree.
 * ArrayInversionCount: Compute number of inversion in an array.
 * PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.
 
-__Training 5 - June 2021__
-(https://app.codility.com/programmers/trainings/5/)
-* ~~DisappearingPairs: Reduce a string containing instances of the letters "A", "B" and "C" via the following rule: remove one occurrence of "AA", "BB" or "CC".~~
+__Training 5 - June 2021__ (https://app.codility.com/programmers/trainings/5/)
+* DisappearingPairs: Reduce a string containing instances of the letters "A", "B" and "C" via the following rule: remove one occurrence of "AA", "BB" or "CC".
 * FirstUnique: Find the first unique number in a given sequence.
 * ~~ThreeLetters: Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.~~
