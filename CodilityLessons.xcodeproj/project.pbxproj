@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A0CE67326C033140000AD3F /* Training5_ParkingBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */; };
 		7ADD23AF2699E19400333A52 /* Training4_FirstUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23AE2699E19400333A52 /* Training4_FirstUnique.swift */; };
 		7ADD23B12699E22100333A52 /* Training4_DisappearingPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B02699E22100333A52 /* Training4_DisappearingPairs.swift */; };
 		7ADD23B32699E25A00333A52 /* Training5_ThreeLetters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */; };
@@ -91,6 +92,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ParkingBill.swift; sourceTree = "<group>"; };
 		7ADD23AE2699E19400333A52 /* Training4_FirstUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4_FirstUnique.swift; sourceTree = "<group>"; };
 		7ADD23B02699E22100333A52 /* Training4_DisappearingPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training4_DisappearingPairs.swift; sourceTree = "<group>"; };
 		7ADD23B22699E25A00333A52 /* Training5_ThreeLetters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Training5_ThreeLetters.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				7AF0409C26C027AE00324563 /* Training5_ParityDegree.swift */,
+				7A0CE67226C033140000AD3F /* Training5_ParkingBill.swift */,
 			);
 			name = "Training 5 - Coding skills";
 			sourceTree = "<group>";
@@ -637,6 +640,7 @@
 				FA9037CA1EA8C5A5005A071F /* Lesson16_MaxNonoverlappingSegments.swift in Sources */,
 				FA7C20921EA77E290048284F /* Training4_PolygonConcavityIndex.swift in Sources */,
 				FA1F2A331E953C66002437F3 /* Lesson5_CountDiv.swift in Sources */,
+				7A0CE67326C033140000AD3F /* Training5_ParkingBill.swift in Sources */,
 				FA6A4DAE1E9D08BE00C9BA31 /* Lesson7_Brackets.swift in Sources */,
 				FA1F2A2F1E953C66002437F3 /* Lesson4_MissingInteger.swift in Sources */,
 				FA1F2A311E953C66002437F3 /* Lesson4_FrogRiverOne.swift in Sources */,

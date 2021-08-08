@@ -1,5 +1,5 @@
 # Codility Lessons [![Build Status](https://travis-ci.com/omalovichko/CodilityLessons.svg?branch=develop)](https://travis-ci.com/omalovichko/CodilityLessons)
-All lessons solved in Swift 4.2
+All lessons & trainings solved in Swift 4.2
 
 Correctness: **100**%🔥
 
@@ -136,7 +136,7 @@ __Training 4 - Algorithmic skills__ (https://app.codility.com/programmers/traini
 
 __Training 5 - Coding skills__ (https://app.codility.com/programmers/trainings/5/)
 * ParityDegree: Find the highest power of 2 that divides N.
-* ~~ParkingBill: Given two strings representing times of entry and exit from a car parking lot, find the cost of the ticket according to the given billing rules.~~
+* ParkingBill: Given two strings representing times of entry and exit from a car parking lot, find the cost of the ticket according to the given billing rules.
 * ~~ThreeLetters: Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.~~
 
 __Training 6 - SQL__ (https://app.codility.com/programmers/trainings/6/)
