@@ -1,5 +1,5 @@
 //
-//  Lesson99_TreeHeight.swift
+//  Training4_TreeHeight.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/18/17.

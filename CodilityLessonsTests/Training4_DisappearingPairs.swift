@@ -1,5 +1,5 @@
 //
-//  Training5_DisappearingPairs.swift
+//  Training4_DisappearingPairs.swift
 //  CodilityLessonsTests
 //
 //  Created by Oleksandr Malovichko on 10.07.2021.

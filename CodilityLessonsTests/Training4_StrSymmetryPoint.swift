@@ -1,5 +1,5 @@
 //
-//  Lesson99_StrSymmetryPoint.swift
+//  Training4_StrSymmetryPoint.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/18/17.

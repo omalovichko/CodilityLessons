@@ -126,14 +126,20 @@ __Training 3 - Tasks from Indeed Prime 2016 College Coders challenge__ (https://
 * DiamondsCount: Given points on a plane, count the number of sets of four points that form regular diamonds.
 
 
-__Training 4 - June 2021__ (https://app.codility.com/programmers/trainings/4/)
-* SqlSum: Calculate sum of elements.
-* StrSymmetryPoint: Find a symmetry point of a string, if any.
-* TreeHeight: Compute the height of a binary tree.
+__Training 4 - Algorithmic skills__ (https://app.codility.com/programmers/trainings/4/)
 * ArrayInversionCount: Compute number of inversion in an array.
-* PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.
-
-__Training 5 - June 2021__ (https://app.codility.com/programmers/trainings/5/)
 * DisappearingPairs: Reduce a string containing instances of the letters "A", "B" and "C" via the following rule: remove one occurrence of "AA", "BB" or "CC".
 * FirstUnique: Find the first unique number in a given sequence.
+* StrSymmetryPoint: Find a symmetry point of a string, if any.
+* PolygonConcavityIndex: Check whether a given polygon in a 2D plane is convex; if not, return the index of a vertex that doesn't belong to the convex hull.
+* TreeHeight: Compute the height of a binary tree.
+
+__Training 5 - Coding skills__ (https://app.codility.com/programmers/trainings/5/)
+* ParityDegree: Find the highest power of 2 that divides N.
+* ~~ParkingBill: Given two strings representing times of entry and exit from a car parking lot, find the cost of the ticket according to the given billing rules.~~
 * ~~ThreeLetters: Given two integers A and B, return a string which contains A letters "a" and B letters "b" with no three consecutive letters being the same.~~
+
+__Training 6 - SQL__ (https://app.codility.com/programmers/trainings/6/)
+* ~~SqlEventsDelta: Compute the difference between the latest and the second latest value for each event type.~~
+* SqlSum: Calculate sum of elements.
+* ~~SqlWorldCup: Given a list of matches in a group stage of the soccer World Cup, compute the number of points each team currently has.~~

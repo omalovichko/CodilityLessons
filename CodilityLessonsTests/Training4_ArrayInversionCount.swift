@@ -1,5 +1,5 @@
 //
-//  Lesson99_ArrayInversionCount.swift
+//  Training4_ArrayInversionCount.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/18/17.

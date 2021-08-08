@@ -1,5 +1,5 @@
 //
-//  Lesson99_PolygonConcavityIndex.swift
+//  Training4_PolygonConcavityIndex.swift
 //  CodilityLessons
 //
 //  Created by Oleksandr Malovichko on 4/19/17.
